@@ -4,12 +4,12 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 946 nodes · 1002 edges · 80 communities (64 shown, 16 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 19 edges (avg confidence: 0.76)
+- 971 nodes · 1051 edges · 81 communities (66 shown, 15 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.77)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `102f638e`
+- Built from commit: `e58ec900`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -93,18 +93,19 @@
 - [[_COMMUNITY_Community 76|Community 76]]
 - [[_COMMUNITY_Community 77|Community 77]]
 - [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md (project instructions)` - 27 edges
 2. `Memory Architecture — Why Different Kinds of Memory` - 16 edges
-3. `Spec to Implementation` - 15 edges
-4. `Bounded Branching — Why This Skill Checks the Fano Bound` - 15 edges
-5. `Vault Architecture` - 15 edges
-6. `Typed Relationships Rule` - 14 edges
-7. `How Progressive Disclosure Works` - 12 edges
-8. `Claude Code Dreams: Anthropic's New Memory Feature` - 12 edges
-9. `Rules for Claude` - 11 edges
-10. `Encode Router Subagent` - 11 edges
+3. `About Bittensor 2025 (EN)` - 16 edges
+4. `Spec to Implementation` - 15 edges
+5. `Bounded Branching — Why This Skill Checks the Fano Bound` - 15 edges
+6. `Vault Architecture` - 15 edges
+7. `Typed Relationships Rule` - 14 edges
+8. `How Progressive Disclosure Works` - 12 edges
+9. `Claude Code Dreams: Anthropic's New Memory Feature` - 12 edges
+10. `Rules for Claude` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Vault Vocabulary` --references--> `Area of Focus Template`  [INFERRED]
@@ -113,19 +114,19 @@
   03 - Resources/Obsidian Reference/Vault Vocabulary.md → Templates/Concept Note.md
 - `Vault Vocabulary` --references--> `External Resource Note Template`  [INFERRED]
   03 - Resources/Obsidian Reference/Vault Vocabulary.md → Templates/External Resource Note.md
+- `我的智库 (ZH)` --references--> `安装指南 (ZH)`  [EXTRACTED]
+  README.md → SETUP.md
 - `CLAUDE.md (project instructions)` --references--> `Obsidian Spec-to-Implementation Skill`  [EXTRACTED]
   CLAUDE.md → .claude/skills/obsidian-spec-to-implementation/SKILL.md
-- `My Knowledge Base (EN)` --semantically_similar_to--> `我的智库 (ZH)`  [EXTRACTED] [semantically similar]
-  README.en.md → README.md
 
 ## Import Cycles
 - None detected.
 
-## Communities (80 total, 16 thin omitted)
+## Communities (81 total, 15 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.11
-Nodes (38): Area Notes (`02 - Areas of Focus/`), Connecting Everything Back, How to Use Areas in This Vault, Review Cadences (Pullein), Setting Up Your Areas, The GAPRA Hierarchy, What Are Areas of Focus?, CLAUDE.md (project instructions) (+30 more)
+Cohesion: 0.08
+Nodes (44): Area Notes (`02 - Areas of Focus/`), Connecting Everything Back, How to Use Areas in This Vault, Review Cadences (Pullein), Setting Up Your Areas, The GAPRA Hierarchy, What Are Areas of Focus?, Curator Flagging (+36 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -172,12 +173,12 @@ Cohesion: 0.09
 Nodes (22): Curator Observation Fields, Deprecation Notes, Edge Fields, Edges as Interface Operations (Not Just Labels), General, Property Standardization, Rules, Rules for Claude (+14 more)
 
 ### Community 12 - "Community 12"
-Cohesion: 0.10
-Nodes (20): Activation, Health Checks → Use `/audit`, Integration with Other Skills, Key Files, Mode 2: Review Suggestions (`/curator review`), Mode 3: Evolve Ontology (`/curator evolve`), Mode 3: Full Curator (`/curator`), Principles (+12 more)
+Cohesion: 0.19
+Nodes (21): Bitcoin as Supercomputer, Dynamic TAO, Incentive Computing, About Bittensor 2025 (EN), 关于 Bittensor 2025 (ZH), Bitcoin as Supercomputer (EN), 比特币是超级计算机 (ZH), Bittensor Subnet Architecture (EN) (+13 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.10
-Nodes (18): Curator Flagging, Encode Router Subagent, Error Handling, Inputs, Outputs, Persistent Memory Protocol, Routing Pipeline, Step 1: Validate Type (+10 more)
+Nodes (20): Activation, Health Checks → Use `/audit`, Integration with Other Skills, Key Files, Mode 2: Review Suggestions (`/curator review`), Mode 3: Evolve Ontology (`/curator evolve`), Mode 3: Full Curator (`/curator`), Principles (+12 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.10
@@ -261,19 +262,19 @@ Nodes (10): Area of Focus Template, Concept Note Template, External Resource Not
 
 ### Community 34 - "Community 34"
 Cohesion: 0.18
-Nodes (10): Cross-Repo Integration, Design Principles, Folder Structure, For Reference, How Claude Code Interacts with the Vault, Maintaining (meta-cognition), Reading (retrieval), The Knowledge Graph Pipeline (+2 more)
+Nodes (11): AI × Crypto, 📁 分区结构（PARA 体系）, 在 GitHub 网页直接看, 在本地用 Obsidian, 📜 完整的 vault 设计文档, 🎯 当前主题, 📊 当前规模, 🛠 怎么用 (+3 more)
 
 ### Community 35 - "Community 35"
 Cohesion: 0.18
-Nodes (11): AI × Crypto, 📁 分区结构（PARA 体系）, 在 GitHub 网页直接看, 在本地用 Obsidian, 📜 完整的 vault 设计文档, 🎯 当前主题, 📊 当前规模, 🛠 怎么用 (+3 more)
+Nodes (10): Active Projects, Current Goals, Definition, Drive / External Resources, Recurring Routines, Reflection Log, Standard to Maintain, <% tp.date.now("YYYY-MM-DD") %> — Initial Setup (+2 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.18
-Nodes (10): Active Projects, Current Goals, Definition, Drive / External Resources, Recurring Routines, Reflection Log, Standard to Maintain, <% tp.date.now("YYYY-MM-DD") %> — Initial Setup (+2 more)
+Nodes (11): - "", Curator fields (uncomment if ontology fit is uncertain), curator_observations:, curator_status: pending, curator_suggested_type:, Edge fields (typed relationships — consumed by KG pipeline), External Sources, Key Themes (+3 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.18
-Nodes (11): - "", Curator fields (uncomment if ontology fit is uncertain), curator_observations:, curator_status: pending, curator_suggested_type:, Edge fields (typed relationships — consumed by KG pipeline), External Sources, Key Themes (+3 more)
+Cohesion: 0.33
+Nodes (10): Area of Focus Template (English), Area of Focus Template (EN), About Bittensor 2025, My Knowledge Base (EN), PARA System, 我的智库 (ZH), Vault Index (EN), 知识库索引 (ZH) (+2 more)
 
 ### Community 38 - "Community 38"
 Cohesion: 0.20
@@ -288,52 +289,52 @@ Cohesion: 0.20
 Nodes (9): Active Projects & Affiliations, Development Environment, Domain Expertise, Identity, Interaction Preferences, Key Intellectual Threads, Owner Context, Professional Role (+1 more)
 
 ### Community 41 - "Community 41"
-Cohesion: 0.20
-Nodes (10): Obsidian Skills (from kepano/obsidian-skills), Recommended Brewfile, Recommended Vault Skills, Setup Guide, Setup steps, Superpowers Plugin (for code repos), Tier 1 — Core CLI Tools (strongly recommended), Tier 4 — Claude Code Plugins and Obsidian Skills (strongly recommended) (+2 more)
+Cohesion: 0.22
+Nodes (10): Claude Code, Setup Guide (EN), Knowledge Graph Pipeline, Obsidian Skills (kepano), Quarto, Git, Homebrew (macOS package manager), Obsidian (+2 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.20
-Nodes (10): - "", Connections, Curator fields (uncomment if ontology fit is uncertain), curator_observations:, curator_status: pending, curator_suggested_type:, Edge fields (typed relationships — consumed by KG pipeline), Source (+2 more)
+Nodes (10): Paperpile (~$3/mo), Readwise (~$8/mo), Recommended Brewfile, Setup Guide, Setup steps, Tier 1 — Core CLI Tools (strongly recommended), Tier 5 — Google Workspace Integration (recommended, free), Tier 6 — Premium Integrations (optional, paid) (+2 more)
 
 ### Community 43 - "Community 43"
-Cohesion: 0.22
-Nodes (8): Algorithms, Documentation, FAQ, fastai Coding Style, Layout, Other stuff, Style guide, Symbol naming
+Cohesion: 0.20
+Nodes (10): - "", Connections, Curator fields (uncomment if ontology fit is uncertain), curator_observations:, curator_status: pending, curator_suggested_type:, Edge fields (typed relationships — consumed by KG pipeline), Source (+2 more)
 
 ### Community 44 - "Community 44"
 Cohesion: 0.22
-Nodes (8): alwaysUpdateLinks, attachmentFolderPath, defaultViewMode, livePreview, newFileLocation, showInlineTitle, showLineNumber, userIgnoreFilters
+Nodes (8): Algorithms, Documentation, FAQ, fastai Coding Style, Layout, Other stuff, Style guide, Symbol naming
 
 ### Community 45 - "Community 45"
 Cohesion: 0.22
-Nodes (8): 1. Body Wikilinks (narrative connections), 2. Frontmatter Edge Fields (typed, queryable relationships), For Vault Builders, How Claude Follows Links, How Wikilinks Create Structure, Links and the Knowledge Graph, Two Types of Links, Wikilink Conventions
+Nodes (8): alwaysUpdateLinks, attachmentFolderPath, defaultViewMode, livePreview, newFileLocation, showInlineTitle, showLineNumber, userIgnoreFilters
 
 ### Community 46 - "Community 46"
 Cohesion: 0.22
-Nodes (8): For Reference, How the Router Enforces PARA, The Archive Lifecycle, The Folder Map, What Is PARA?, What the Router does when it can't find a home, Why PARA and How We Modify It, Why PARA for an Agentic Vault?
+Nodes (8): 1. Body Wikilinks (narrative connections), 2. Frontmatter Edge Fields (typed, queryable relationships), For Vault Builders, How Claude Follows Links, How Wikilinks Create Structure, Links and the Knowledge Graph, Two Types of Links, Wikilink Conventions
 
 ### Community 47 - "Community 47"
-Cohesion: 0.25
-Nodes (9): Claude Code, Setup Guide (EN), Knowledge Graph Pipeline, Obsidian Skills (kepano), Quarto, Git, Homebrew (macOS package manager), Obsidian (+1 more)
+Cohesion: 0.22
+Nodes (8): For Reference, How the Router Enforces PARA, The Archive Lifecycle, The Folder Map, What Is PARA?, What the Router does when it can't find a home, Why PARA and How We Modify It, Why PARA for an Agentic Vault?
 
 ### Community 48 - "Community 48"
-Cohesion: 0.43
-Nodes (8): Area of Focus Template (English), Area of Focus Template (EN), About Bittensor 2025, My Knowledge Base (EN), PARA System, 我的智库 (ZH), Vault Index (English), Vault 索引 (中文)
-
-### Community 49 - "Community 49"
 Cohesion: 0.25
 Nodes (7): For Vault Builders, How Claude Uses This, How Frontmatter Edge Fields Add Structure, How Progressive Disclosure Works, How Wikilinks Enable This, The Index Update Rule, The Problem Progressive Disclosure Solves
 
-### Community 50 - "Community 50"
+### Community 49 - "Community 49"
 Cohesion: 0.25
 Nodes (7): CLI-First Principle, Navigation Breadcrumbs, Progressive Disclosure Navigation, Structural Health Checks, Vault Index Updates, Vault Navigation, Voice Input
 
-### Community 51 - "Community 51"
+### Community 50 - "Community 50"
 Cohesion: 0.29
 Nodes (6): How to Use This Index, Literature Index, Uncategorized, (Your First Topic Area), Your Research Areas, (Your Second Topic Area)
 
-### Community 52 - "Community 52"
+### Community 51 - "Community 51"
 Cohesion: 0.29
 Nodes (6): Knowledge Capture, Red Flags — STOP, Reference Files, Step 1: Identify What's Worth Capturing, Step 2: Confirm with User, Step 3: Call Encode
+
+### Community 52 - "Community 52"
+Cohesion: 0.29
+Nodes (6): Cross-Repo Integration, Design Principles, Folder Structure, For Reference, The Knowledge Graph Pipeline, Vault Architecture
 
 ### Community 53 - "Community 53"
 Cohesion: 0.29
@@ -345,52 +346,60 @@ Nodes (7): Areas of Focus - Pullein Methodology, LITERATURE-INDEX, Memory Archit
 
 ### Community 55 - "Community 55"
 Cohesion: 0.33
-Nodes (5): hooks, PostToolUse, permissions, allow, deny
+Nodes (6): Routing Pipeline, Step 1: Validate Type, Step 2: Determine Domain, Step 3: Determine Location, Step 4: Suggest Connections, Step 5: Assess Confidence
 
 ### Community 56 - "Community 56"
 Cohesion: 0.33
-Nodes (6): Concept Note Template (EN), Implementation Note Template (EN), Literature Note Template (EN), Person Note Template (EN), Project Note Template (English), Project Note Template (EN)
+Nodes (5): hooks, PostToolUse, permissions, allow, deny
 
 ### Community 57 - "Community 57"
 Cohesion: 0.33
-Nodes (6): Apache Jena, Configure namespace and build, Python 3 + PyYAML, Tier 2 — Knowledge Graph Pipeline (recommended), Tier 3 — Obsidian CLI (recommended), Verify
+Nodes (6): Concept Note Template (EN), Implementation Note Template (EN), Literature Note Template (EN), Person Note Template (EN), Project Note Template (English), Project Note Template (EN)
 
 ### Community 58 - "Community 58"
 Cohesion: 0.33
-Nodes (6): Areas of Focus (02 - Areas of Focus/), Projects (01 - Projects/), Resources (03 - Resources/), Vault Index, Vault Reference, Watching (05 - Watching/)
+Nodes (6): Cross-Area Research Connections, Project-Research Integration, Research Session Skill, Research Workflows, Terminology Precision, Typical Research Session
 
 ### Community 59 - "Community 59"
-Cohesion: 0.50
-Nodes (4): Bitcoin as Supercomputer, Bittensor, Dynamic TAO, Incentive Computing
+Cohesion: 0.33
+Nodes (6): Apache Jena, Configure namespace and build, Python 3 + PyYAML, Tier 2 — Knowledge Graph Pipeline (recommended), Tier 3 — Obsidian CLI (recommended), Verify
 
 ### Community 60 - "Community 60"
-Cohesion: 0.50
-Nodes (4): 1. Working Memory (context window), 2. Procedural Memory (skills), 3. Semantic Memory (the vault itself), The Three Memory Layers
+Cohesion: 0.33
+Nodes (6): Areas of Focus (02 - Areas of Focus/), Projects (01 - Projects/), Resources (03 - Resources/), Vault Index, Vault Reference, Watching (05 - Watching/)
 
 ### Community 61 - "Community 61"
 Cohesion: 0.50
-Nodes (4): How This Vault Modifies PARA, Pullein's Areas of Focus (the "why" layer), Resources as Knowledge Graph, Watching (the "not yet" layer)
+Nodes (4): 1. Working Memory (context window), 2. Procedural Memory (skills), 3. Semantic Memory (the vault itself), The Three Memory Layers
 
 ### Community 62 - "Community 62"
 Cohesion: 0.50
-Nodes (4): Paperpile (~$3/mo), Readwise (~$8/mo), Tier 6 — Premium Integrations (optional, paid), Todoist (~$4/mo)
+Nodes (4): How Claude Code Interacts with the Vault, Maintaining (meta-cognition), Reading (retrieval), Writing (encoding)
+
+### Community 63 - "Community 63"
+Cohesion: 0.50
+Nodes (4): How This Vault Modifies PARA, Pullein's Areas of Focus (the "why" layer), Resources as Knowledge Graph, Watching (the "not yet" layer)
+
+### Community 64 - "Community 64"
+Cohesion: 0.50
+Nodes (4): Obsidian Skills (from kepano/obsidian-skills), Recommended Vault Skills, Superpowers Plugin (for code repos), Tier 4 — Claude Code Plugins and Obsidian Skills (strongly recommended)
 
 ## Knowledge Gaps
-- **663 isolated node(s):** `allow`, `deny`, `PostToolUse`, `file-explorer`, `global-search` (+658 more)
+- **672 isolated node(s):** `allow`, `deny`, `PostToolUse`, `file-explorer`, `global-search` (+667 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Setup Guide` connect `Community 41` to `Community 0`, `Community 57`, `Community 62`, `Community 47`?**
+- **Why does `Setup Guide` connect `Community 42` to `Community 0`, `Community 41`, `Community 59`, `Community 64`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `Setup Guide (EN)` connect `Community 41` to `Community 59`, `Community 37`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `Typed Relationships Rule` connect `Community 0` to `Community 11`, `Community 13`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **What connects `allow`, `deny`, `PostToolUse` to the rest of the system?**
-  _673 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _682 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.10628019323671498 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08455625436757512 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05668016194331984 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**

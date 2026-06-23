@@ -9,7 +9,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "settings.json",
       "id": "claude_settings"
     },
@@ -19,7 +19,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "permissions",
       "id": "claude_settings_permissions"
     },
@@ -29,7 +29,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "allow",
       "id": "claude_settings_permissions_allow"
     },
@@ -39,7 +39,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "deny",
       "id": "claude_settings_permissions_deny"
     },
@@ -49,7 +49,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "hooks",
       "id": "claude_settings_hooks"
     },
@@ -59,7 +59,7 @@
       "source_file": ".claude/settings.json",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 55,
+      "community": 56,
       "norm_label": "posttooluse",
       "id": "claude_settings_hooks_posttooluse"
     },
@@ -69,7 +69,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "app.json",
       "id": "obsidian_app"
     },
@@ -79,7 +79,7 @@
       "source_file": ".obsidian/appearance.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 79,
+      "community": 80,
       "norm_label": "appearance.json",
       "id": "obsidian_appearance"
     },
@@ -413,7 +413,7 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "community": 63,
+      "community": 65,
       "norm_label": "build-graph.sh",
       "id": "kg_build_graph"
     },
@@ -427,7 +427,7 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "community": 63,
+      "community": 65,
       "norm_label": "build-graph.sh script",
       "id": "users_a1111_project_knowledge_base_scripts_kg_build_graph_sh__entry"
     },
@@ -441,7 +441,7 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "community": 63,
+      "community": 65,
       "norm_label": "run_construct()",
       "id": "kg_build_graph_run_construct"
     },
@@ -455,7 +455,7 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "community": 66,
+      "community": 71,
       "norm_label": "setup-namespace.sh",
       "id": "kg_setup_namespace"
     },
@@ -469,7 +469,7 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "community": 66,
+      "community": 71,
       "norm_label": "setup-namespace.sh script",
       "id": "users_a1111_project_knowledge_base_scripts_kg_setup_namespace_sh__entry"
     },
@@ -699,7 +699,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "memory.md",
       "id": "encode_router_memory"
     },
@@ -709,7 +709,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "encode router memory",
       "id": "encode_router_memory_encode_router_memory"
     },
@@ -719,7 +719,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "moc coverage summary",
       "id": "encode_router_memory_moc_coverage_summary"
     },
@@ -729,7 +729,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "routing corrections",
       "id": "encode_router_memory_routing_corrections"
     },
@@ -739,7 +739,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "structural bias warning",
       "id": "encode_router_memory_structural_bias_warning"
     },
@@ -749,7 +749,7 @@
       "source_file": ".claude/agent-memory/encode-router/MEMORY.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "low-confidence patterns",
       "id": "encode_router_memory_low_confidence_patterns"
     },
@@ -1029,7 +1029,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "research workflows",
       "id": "rules_research_workflows_research_workflows"
     },
@@ -1039,7 +1039,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "typical research session",
       "id": "rules_research_workflows_typical_research_session"
     },
@@ -1049,7 +1049,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "research session skill",
       "id": "rules_research_workflows_research_session_skill"
     },
@@ -1059,7 +1059,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "project-research integration",
       "id": "rules_research_workflows_project_research_integration"
     },
@@ -1069,7 +1069,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "terminology precision",
       "id": "rules_research_workflows_terminology_precision"
     },
@@ -1079,7 +1079,7 @@
       "source_file": ".claude/rules/research-workflows.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 0,
+      "community": 58,
       "norm_label": "cross-area research connections",
       "id": "rules_research_workflows_cross_area_research_connections"
     },
@@ -1429,7 +1429,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "vault-navigation.md",
       "id": "rules_vault_navigation"
     },
@@ -1439,7 +1439,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "vault navigation",
       "id": "rules_vault_navigation_vault_navigation"
     },
@@ -1449,7 +1449,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "voice input",
       "id": "rules_vault_navigation_voice_input"
     },
@@ -1459,7 +1459,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "cli-first principle",
       "id": "rules_vault_navigation_cli_first_principle"
     },
@@ -1469,7 +1469,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "progressive disclosure navigation",
       "id": "rules_vault_navigation_progressive_disclosure_navigation"
     },
@@ -1479,7 +1479,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L72",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "structural health checks",
       "id": "rules_vault_navigation_structural_health_checks"
     },
@@ -1489,7 +1489,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "navigation breadcrumbs",
       "id": "rules_vault_navigation_navigation_breadcrumbs"
     },
@@ -1499,7 +1499,7 @@
       "source_file": ".claude/rules/vault-navigation.md",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 50,
+      "community": 49,
       "norm_label": "vault index updates",
       "id": "rules_vault_navigation_vault_index_updates"
     },
@@ -1979,7 +1979,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "router.md",
       "id": "agents_router"
     },
@@ -1989,7 +1989,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "encode router subagent",
       "id": "agents_router_encode_router_subagent"
     },
@@ -1999,7 +1999,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "inputs",
       "id": "agents_router_inputs"
     },
@@ -2009,7 +2009,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "outputs",
       "id": "agents_router_outputs"
     },
@@ -2019,7 +2019,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L48",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "routing pipeline",
       "id": "agents_router_routing_pipeline"
     },
@@ -2029,7 +2029,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "step 1: validate type",
       "id": "agents_router_step_1_validate_type"
     },
@@ -2039,7 +2039,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "step 2: determine domain",
       "id": "agents_router_step_2_determine_domain"
     },
@@ -2049,7 +2049,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L124",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "step 3: determine location",
       "id": "agents_router_step_3_determine_location"
     },
@@ -2059,7 +2059,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L180",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "step 4: suggest connections",
       "id": "agents_router_step_4_suggest_connections"
     },
@@ -2069,7 +2069,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L207",
       "_origin": "ast",
-      "community": 13,
+      "community": 55,
       "norm_label": "step 5: assess confidence",
       "id": "agents_router_step_5_assess_confidence"
     },
@@ -2079,7 +2079,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L222",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "curator flagging",
       "id": "agents_router_curator_flagging"
     },
@@ -2089,7 +2089,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L235",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "persistent memory protocol",
       "id": "agents_router_persistent_memory_protocol"
     },
@@ -2099,7 +2099,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L250",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "template selection",
       "id": "agents_router_template_selection"
     },
@@ -2109,7 +2109,7 @@
       "source_file": ".claude/skills/encode/agents/router.md",
       "source_location": "L273",
       "_origin": "ast",
-      "community": 13,
+      "community": 0,
       "norm_label": "error handling",
       "id": "agents_router_error_handling"
     },
@@ -2419,7 +2419,7 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "skill.md",
       "id": "obsidian_knowledge_capture_skill"
     },
@@ -2429,7 +2429,7 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "knowledge capture",
       "id": "obsidian_knowledge_capture_skill_knowledge_capture"
     },
@@ -2439,7 +2439,7 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "step 1: identify what's worth capturing",
       "id": "obsidian_knowledge_capture_skill_step_1_identify_what_s_worth_capturing"
     },
@@ -2449,7 +2449,7 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "step 2: confirm with user",
       "id": "obsidian_knowledge_capture_skill_step_2_confirm_with_user"
     },
@@ -2459,18 +2459,18 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "step 3: call encode",
       "id": "obsidian_knowledge_capture_skill_step_3_call_encode"
     },
     {
-      "label": "Red Flags \u2014 STOP",
+      "label": "Red Flags — STOP",
       "file_type": "document",
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 52,
-      "norm_label": "red flags \u2014 stop",
+      "community": 51,
+      "norm_label": "red flags — stop",
       "id": "obsidian_knowledge_capture_skill_red_flags_stop"
     },
     {
@@ -2479,7 +2479,7 @@
       "source_file": ".claude/skills/obsidian-knowledge-capture/SKILL.md",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 52,
+      "community": 51,
       "norm_label": "reference files",
       "id": "obsidian_knowledge_capture_skill_reference_files"
     },
@@ -2614,13 +2614,13 @@
       "id": "obsidian_research_synthesis_skill_rationalization_table"
     },
     {
-      "label": "Red Flags \u2014 STOP",
+      "label": "Red Flags — STOP",
       "file_type": "document",
       "source_file": ".claude/skills/obsidian-research-synthesis/SKILL.md",
       "source_location": "L152",
       "_origin": "ast",
       "community": 21,
-      "norm_label": "red flags \u2014 stop",
+      "norm_label": "red flags — stop",
       "id": "obsidian_research_synthesis_skill_red_flags_stop"
     },
     {
@@ -3354,13 +3354,13 @@
       "id": "research_session_skill_rationalization_table"
     },
     {
-      "label": "Red Flags \u2014 STOP",
+      "label": "Red Flags — STOP",
       "file_type": "document",
       "source_file": ".claude/skills/research-session/SKILL.md",
       "source_location": "L183",
       "_origin": "ast",
       "community": 25,
-      "norm_label": "red flags \u2014 stop",
+      "norm_label": "red flags — stop",
       "id": "research_session_skill_red_flags_stop"
     },
     {
@@ -3744,13 +3744,13 @@
       "id": "review_note_skill_common_mistakes"
     },
     {
-      "label": "Red Flags \u2014 STOP",
+      "label": "Red Flags — STOP",
       "file_type": "document",
       "source_file": ".claude/skills/review-note/SKILL.md",
       "source_location": "L231",
       "_origin": "ast",
       "community": 8,
-      "norm_label": "red flags \u2014 stop",
+      "norm_label": "red flags — stop",
       "id": "review_note_skill_red_flags_stop"
     },
     {
@@ -3874,13 +3874,13 @@
       "id": "session_retro_skill_lightweight_mode"
     },
     {
-      "label": "Red Flags \u2014 STOP",
+      "label": "Red Flags — STOP",
       "file_type": "document",
       "source_file": ".claude/skills/session-retro/SKILL.md",
       "source_location": "L114",
       "_origin": "ast",
       "community": 29,
-      "norm_label": "red flags \u2014 stop",
+      "norm_label": "red flags — stop",
       "id": "session_retro_skill_red_flags_stop"
     },
     {
@@ -3899,7 +3899,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "skill.md",
       "id": "vault_curator_skill"
     },
@@ -3909,7 +3909,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "vault curator",
       "id": "vault_curator_skill_vault_curator"
     },
@@ -3919,7 +3919,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "activation",
       "id": "vault_curator_skill_activation"
     },
@@ -3929,18 +3929,18 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "key files",
       "id": "vault_curator_skill_key_files"
     },
     {
-      "label": "Health Checks \u2192 Use `/audit`",
+      "label": "Health Checks → Use `/audit`",
       "file_type": "document",
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": "health checks \u2192 use `/audit`",
+      "community": 13,
+      "norm_label": "health checks → use `/audit`",
       "id": "vault_curator_skill_health_checks_use_audit"
     },
     {
@@ -3949,7 +3949,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "mode 2: review suggestions (`/curator review`)",
       "id": "vault_curator_skill_mode_2_review_suggestions_curator_review"
     },
@@ -3959,7 +3959,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 1: find pending suggestions",
       "id": "vault_curator_skill_step_1_find_pending_suggestions"
     },
@@ -3969,7 +3969,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 2: read each flagged note",
       "id": "vault_curator_skill_step_2_read_each_flagged_note"
     },
@@ -3979,7 +3979,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 3: group by observation type",
       "id": "vault_curator_skill_step_3_group_by_observation_type"
     },
@@ -3989,7 +3989,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 4: present grouped summary",
       "id": "vault_curator_skill_step_4_present_grouped_summary"
     },
@@ -3999,7 +3999,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 5: process decisions",
       "id": "vault_curator_skill_step_5_process_decisions"
     },
@@ -4009,7 +4009,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 6: commit",
       "id": "vault_curator_skill_step_6_commit"
     },
@@ -4019,7 +4019,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L87",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "mode 3: evolve ontology (`/curator evolve`)",
       "id": "vault_curator_skill_mode_3_evolve_ontology_curator_evolve"
     },
@@ -4029,7 +4029,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 1: read proposals",
       "id": "vault_curator_skill_step_1_read_proposals"
     },
@@ -4039,7 +4039,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 2: generate plan for each proposal",
       "id": "vault_curator_skill_step_2_generate_plan_for_each_proposal"
     },
@@ -4049,7 +4049,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L105",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 3: present plan to user",
       "id": "vault_curator_skill_step_3_present_plan_to_user"
     },
@@ -4059,7 +4059,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L109",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 4: execute approved changes",
       "id": "vault_curator_skill_step_4_execute_approved_changes"
     },
@@ -4069,7 +4069,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L120",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "step 5: log the evolution",
       "id": "vault_curator_skill_step_5_log_the_evolution"
     },
@@ -4079,7 +4079,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L140",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "mode 3: full curator (`/curator`)",
       "id": "vault_curator_skill_mode_3_full_curator_curator"
     },
@@ -4089,7 +4089,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L152",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "principles",
       "id": "vault_curator_skill_principles"
     },
@@ -4099,7 +4099,7 @@
       "source_file": ".claude/skills/vault-curator/SKILL.md",
       "source_location": "L162",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "integration with other skills",
       "id": "vault_curator_skill_integration_with_other_skills"
     },
@@ -4114,13 +4114,13 @@
       "id": "vault_kg_skill"
     },
     {
-      "label": "Vault Knowledge Graph \u2014 Semantic Navigation Skill",
+      "label": "Vault Knowledge Graph — Semantic Navigation Skill",
       "file_type": "document",
       "source_file": ".claude/skills/vault-kg/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
       "community": 27,
-      "norm_label": "vault knowledge graph \u2014 semantic navigation skill",
+      "norm_label": "vault knowledge graph — semantic navigation skill",
       "id": "vault_kg_skill_vault_knowledge_graph_semantic_navigation_skill"
     },
     {
@@ -4324,19 +4324,19 @@
       "id": "02_areas_of_focus_areas_of_focus_pullein_methodology_setting_up_your_areas"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 76,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "community": 78,
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "ai_crypto_about_bittensor_2025_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "About Bittensor 2025",
+      "label": "About Bittensor 2025 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L31",
       "_origin": "ast",
       "community": 14,
@@ -4344,189 +4344,189 @@
       "id": "ai_crypto_about_bittensor_2025_about_bittensor_2025"
     },
     {
-      "label": "\u6f14\u8bb2\u8005\u80cc\u666f",
+      "label": "演讲者背景 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L51",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6f14\u8bb2\u8005\u80cc\u666f",
-      "id": "ai_crypto_about_bittensor_2025_\u6f14\u8bb2\u8005\u80cc\u666f"
+      "norm_label": "演讲者背景",
+      "id": "ai_crypto_about_bittensor_2025_演讲者背景"
     },
     {
-      "label": "\u6838\u5fc3\u8bba\u70b9\uff1a\u4e00\u4e2a\u7edf\u4e00\u7684\u53cd\u9988\u5faa\u73af",
+      "label": "核心论点：一个统一的反馈循环 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L69",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6838\u5fc3\u8bba\u70b9:\u4e00\u4e2a\u7edf\u4e00\u7684\u53cd\u9988\u5faa\u73af",
-      "id": "ai_crypto_about_bittensor_2025_\u6838\u5fc3\u8bba\u70b9_\u4e00\u4e2a\u7edf\u4e00\u7684\u53cd\u9988\u5faa\u73af"
+      "norm_label": "核心论点:一个统一的反馈循环",
+      "id": "ai_crypto_about_bittensor_2025_核心论点_一个统一的反馈循环"
     },
     {
-      "label": "\u8fd9\u4e2a\u6a21\u5f0f\u5728\u54ea\u4e9b\u5730\u65b9\u51fa\u73b0\uff1f",
+      "label": "这个模式在哪些地方出现？ · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L86",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u8fd9\u4e2a\u6a21\u5f0f\u5728\u54ea\u4e9b\u5730\u65b9\u51fa\u73b0?",
-      "id": "ai_crypto_about_bittensor_2025_\u8fd9\u4e2a\u6a21\u5f0f\u5728\u54ea\u4e9b\u5730\u65b9\u51fa\u73b0"
+      "norm_label": "这个模式在哪些地方出现?",
+      "id": "ai_crypto_about_bittensor_2025_这个模式在哪些地方出现"
     },
     {
-      "label": "\u5173\u952e\u8bba\u70b9 \u2460 \uff1aAI \u7684\u771f\u6b63\u9769\u547d\u53d1\u751f\u5728 2012",
+      "label": "关键论点 ① ：AI 的真正革命发生在 2012 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L102",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u5173\u952e\u8bba\u70b9 1 :ai \u7684\u771f\u6b63\u9769\u547d\u53d1\u751f\u5728 2012",
-      "id": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_1_ai_\u7684\u771f\u6b63\u9769\u547d\u53d1\u751f\u5728_2012"
+      "norm_label": "关键论点 1 :ai 的真正革命发生在 2012",
+      "id": "ai_crypto_about_bittensor_2025_关键论点_1_ai_的真正革命发生在_2012"
     },
     {
-      "label": "\u5173\u952e\u8bba\u70b9 \u2461 \uff1a\u6bd4\u7279\u5e01\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u8d85\u7ea7\u8ba1\u7b97\u673a",
+      "label": "关键论点 ② ：比特币是世界上最大的超级计算机 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L125",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u5173\u952e\u8bba\u70b9 2 :\u6bd4\u7279\u5e01\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u8d85\u7ea7\u8ba1\u7b97\u673a",
-      "id": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_2_\u6bd4\u7279\u5e01\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u8d85\u7ea7\u8ba1\u7b97\u673a"
+      "norm_label": "关键论点 2 :比特币是世界上最大的超级计算机",
+      "id": "ai_crypto_about_bittensor_2025_关键论点_2_比特币是世界上最大的超级计算机"
     },
     {
-      "label": "\u4e3a\u4ec0\u4e48\u8fd9\u4e48\u79bb\u8c31\u5730\u9ad8\u6548\uff1f",
+      "label": "为什么这么离谱地高效？ · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L148",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u4e3a\u4ec0\u4e48\u8fd9\u4e48\u79bb\u8c31\u5730\u9ad8\u6548?",
-      "id": "ai_crypto_about_bittensor_2025_\u4e3a\u4ec0\u4e48\u8fd9\u4e48\u79bb\u8c31\u5730\u9ad8\u6548"
+      "norm_label": "为什么这么离谱地高效?",
+      "id": "ai_crypto_about_bittensor_2025_为什么这么离谱地高效"
     },
     {
-      "label": "\u5173\u952e\u8bba\u70b9 \u2462 \uff1aBittensor \u662f\u300c\u6fc0\u52b1\u8ba1\u7b97\u7684\u901a\u7528\u8bed\u8a00\u300d",
+      "label": "关键论点 ③ ：Bittensor 是「激励计算的通用语言」 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L179",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u5173\u952e\u8bba\u70b9 3 :bittensor \u662f\u300c\u6fc0\u52b1\u8ba1\u7b97\u7684\u901a\u7528\u8bed\u8a00\u300d",
-      "id": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_3_bittensor_\u662f_\u6fc0\u52b1\u8ba1\u7b97\u7684\u901a\u7528\u8bed\u8a00"
+      "norm_label": "关键论点 3 :bittensor 是「激励计算的通用语言」",
+      "id": "ai_crypto_about_bittensor_2025_关键论点_3_bittensor_是_激励计算的通用语言"
     },
     {
-      "label": "6 \u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b\uff08\u89c6\u9891\u4e2d\u7684\"\u9707\u64bc\u65f6\u523b\"\uff09",
+      "label": "6 个真实子网案例（视频中的\"震撼时刻\"） · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L205",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "6 \u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b(\u89c6\u9891\u4e2d\u7684\"\u9707\u64bc\u65f6\u523b\")",
-      "id": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b"
+      "norm_label": "6 个真实子网案例(视频中的\"震撼时刻\")",
+      "id": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻"
     },
     {
-      "label": "\u6848\u4f8b 1\ufe0f\u20e3\uff1a\u7f16\u7a0b\u667a\u80fd\u5b50\u7f51\uff08SWE-Bench\uff09",
+      "label": "案例 1️⃣：编程智能子网（SWE-Bench） · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L207",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 1\ufe0f\u20e3:\u7f16\u7a0b\u667a\u80fd\u5b50\u7f51(swe-bench)",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_1_\u7f16\u7a0b\u667a\u80fd\u5b50\u7f51_swe_bench"
+      "norm_label": "案例 1️⃣:编程智能子网(swe-bench)",
+      "id": "ai_crypto_about_bittensor_2025_案例_1_编程智能子网_swe_bench"
     },
     {
-      "label": "\u6848\u4f8b 2\ufe0f\u20e3\uff1a\u53bb\u4e2d\u5fc3\u5316\u8bad\u7ec3 70B \u5927\u6a21\u578b",
+      "label": "案例 2️⃣：去中心化训练 70B 大模型 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L230",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 2\ufe0f\u20e3:\u53bb\u4e2d\u5fc3\u5316\u8bad\u7ec3 70b \u5927\u6a21\u578b",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_2_\u53bb\u4e2d\u5fc3\u5316\u8bad\u7ec3_70b_\u5927\u6a21\u578b"
+      "norm_label": "案例 2️⃣:去中心化训练 70b 大模型",
+      "id": "ai_crypto_about_bittensor_2025_案例_2_去中心化训练_70b_大模型"
     },
     {
-      "label": "\u6848\u4f8b 3\ufe0f\u20e3\uff1aGPU \u7b97\u529b\u5e02\u573a\uff08DePIN\uff09",
+      "label": "案例 3️⃣：GPU 算力市场（DePIN） · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L244",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 3\ufe0f\u20e3:gpu \u7b97\u529b\u5e02\u573a(depin)",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_3_gpu_\u7b97\u529b\u5e02\u573a_depin"
+      "norm_label": "案例 3️⃣:gpu 算力市场(depin)",
+      "id": "ai_crypto_about_bittensor_2025_案例_3_gpu_算力市场_depin"
     },
     {
-      "label": "\u6848\u4f8b 4\ufe0f\u20e3\uff1a\u63a8\u7406\u7f51\u7edc",
+      "label": "案例 4️⃣：推理网络 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L250",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 4\ufe0f\u20e3:\u63a8\u7406\u7f51\u7edc",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_4_\u63a8\u7406\u7f51\u7edc"
+      "norm_label": "案例 4️⃣:推理网络",
+      "id": "ai_crypto_about_bittensor_2025_案例_4_推理网络"
     },
     {
-      "label": "\u6848\u4f8b 5\ufe0f\u20e3\uff1a\u673a\u5668\u4eba / \u7269\u7406\u4e16\u754c\u4f18\u5316",
+      "label": "案例 5️⃣：机器人 / 物理世界优化 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L255",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 5\ufe0f\u20e3:\u673a\u5668\u4eba / \u7269\u7406\u4e16\u754c\u4f18\u5316",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_5_\u673a\u5668\u4eba_\u7269\u7406\u4e16\u754c\u4f18\u5316"
+      "norm_label": "案例 5️⃣:机器人 / 物理世界优化",
+      "id": "ai_crypto_about_bittensor_2025_案例_5_机器人_物理世界优化"
     },
     {
-      "label": "\u6848\u4f8b 6\ufe0f\u20e3\uff1a9 \u7c7b\u6742\u9879\u5b50\u7f51",
+      "label": "案例 6️⃣：9 类杂项子网 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L260",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u6848\u4f8b 6\ufe0f\u20e3:9 \u7c7b\u6742\u9879\u5b50\u7f51",
-      "id": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_6_9_\u7c7b\u6742\u9879\u5b50\u7f51"
+      "norm_label": "案例 6️⃣:9 类杂项子网",
+      "id": "ai_crypto_about_bittensor_2025_案例_6_9_类杂项子网"
     },
     {
-      "label": "Dynamic TAO\uff1a\u628a\u6fc0\u52b1\u8ba1\u7b97\u5e94\u7528\u5230\u6fc0\u52b1\u8ba1\u7b97\u81ea\u8eab",
+      "label": "Dynamic TAO：把激励计算应用到激励计算自身 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L291",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "dynamic tao:\u628a\u6fc0\u52b1\u8ba1\u7b97\u5e94\u7528\u5230\u6fc0\u52b1\u8ba1\u7b97\u81ea\u8eab",
-      "id": "ai_crypto_about_bittensor_2025_dynamic_tao_\u628a\u6fc0\u52b1\u8ba1\u7b97\u5e94\u7528\u5230\u6fc0\u52b1\u8ba1\u7b97\u81ea\u8eab"
+      "norm_label": "dynamic tao:把激励计算应用到激励计算自身",
+      "id": "ai_crypto_about_bittensor_2025_dynamic_tao_把激励计算应用到激励计算自身"
     },
     {
-      "label": "\u7075\u9b42\u62f7\u95ee\uff1a\u4e3a\u4ec0\u4e48\u4f60\u5e94\u8be5\u5173\u6ce8\uff1f",
+      "label": "灵魂拷问：为什么你应该关注？ · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L305",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u7075\u9b42\u62f7\u95ee:\u4e3a\u4ec0\u4e48\u4f60\u5e94\u8be5\u5173\u6ce8?",
-      "id": "ai_crypto_about_bittensor_2025_\u7075\u9b42\u62f7\u95ee_\u4e3a\u4ec0\u4e48\u4f60\u5e94\u8be5\u5173\u6ce8"
+      "norm_label": "灵魂拷问:为什么你应该关注?",
+      "id": "ai_crypto_about_bittensor_2025_灵魂拷问_为什么你应该关注"
     },
     {
-      "label": "\u89c6\u9891\u4e2d\u7684\u5173\u952e\u753b\u9762\u7d22\u5f15",
+      "label": "视频中的关键画面索引 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L345",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u89c6\u9891\u4e2d\u7684\u5173\u952e\u753b\u9762\u7d22\u5f15",
-      "id": "ai_crypto_about_bittensor_2025_\u89c6\u9891\u4e2d\u7684\u5173\u952e\u753b\u9762\u7d22\u5f15"
+      "norm_label": "视频中的关键画面索引",
+      "id": "ai_crypto_about_bittensor_2025_视频中的关键画面索引"
     },
     {
-      "label": "\u53ef\u4ee5\u6df1\u5165\u7684\u65b9\u5411",
+      "label": "可以深入的方向 · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L370",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "\u53ef\u4ee5\u6df1\u5165\u7684\u65b9\u5411",
-      "id": "ai_crypto_about_bittensor_2025_\u53ef\u4ee5\u6df1\u5165\u7684\u65b9\u5411"
+      "norm_label": "可以深入的方向",
+      "id": "ai_crypto_about_bittensor_2025_可以深入的方向"
     },
     {
-      "label": "Source",
+      "label": "Source · 关于 Bittensor 2025",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L380",
       "_origin": "ast",
       "community": 14,
@@ -4539,7 +4539,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "literature-index.md",
       "id": "literature_literature_index"
     },
@@ -4549,7 +4549,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "literature index",
       "id": "literature_literature_index_literature_index"
     },
@@ -4559,7 +4559,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "how to use this index",
       "id": "literature_literature_index_how_to_use_this_index"
     },
@@ -4569,7 +4569,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "your research areas",
       "id": "literature_literature_index_your_research_areas"
     },
@@ -4579,7 +4579,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "(your first topic area)",
       "id": "literature_literature_index_your_first_topic_area"
     },
@@ -4589,7 +4589,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "(your second topic area)",
       "id": "literature_literature_index_your_second_topic_area"
     },
@@ -4599,7 +4599,7 @@
       "source_file": "03 - Resources/Literature/LITERATURE-INDEX.md",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 51,
+      "community": 50,
       "norm_label": "uncategorized",
       "id": "literature_literature_index_uncategorized"
     },
@@ -4614,13 +4614,13 @@
       "id": "obsidian_reference_bounded_branching_why_this_skill_checks_the_fano_bound"
     },
     {
-      "label": "Bounded Branching \u2014 Why This Skill Checks the Fano Bound",
+      "label": "Bounded Branching — Why This Skill Checks the Fano Bound",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Bounded Branching - Why This Skill Checks the Fano Bound.md",
       "source_location": "L13",
       "_origin": "ast",
       "community": 1,
-      "norm_label": "bounded branching \u2014 why this skill checks the fano bound",
+      "norm_label": "bounded branching — why this skill checks the fano bound",
       "id": "obsidian_reference_bounded_branching_why_this_skill_checks_the_fano_bound_bounded_branching_why_this_skill_checks_the_fano_bound"
     },
     {
@@ -4729,7 +4729,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "how progressive disclosure works.md",
       "id": "obsidian_reference_how_progressive_disclosure_works"
     },
@@ -4739,7 +4739,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "how progressive disclosure works",
       "id": "obsidian_reference_how_progressive_disclosure_works_how_progressive_disclosure_works"
     },
@@ -4749,7 +4749,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "the problem progressive disclosure solves",
       "id": "obsidian_reference_how_progressive_disclosure_works_the_problem_progressive_disclosure_solves"
     },
@@ -4759,7 +4759,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "how claude uses this",
       "id": "obsidian_reference_how_progressive_disclosure_works_how_claude_uses_this"
     },
@@ -4769,7 +4769,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "how wikilinks enable this",
       "id": "obsidian_reference_how_progressive_disclosure_works_how_wikilinks_enable_this"
     },
@@ -4779,7 +4779,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L48",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "how frontmatter edge fields add structure",
       "id": "obsidian_reference_how_progressive_disclosure_works_how_frontmatter_edge_fields_add_structure"
     },
@@ -4789,7 +4789,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "the index update rule",
       "id": "obsidian_reference_how_progressive_disclosure_works_the_index_update_rule"
     },
@@ -4799,7 +4799,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Progressive Disclosure Works.md",
       "source_location": "L76",
       "_origin": "ast",
-      "community": 49,
+      "community": 48,
       "norm_label": "for vault builders",
       "id": "obsidian_reference_how_progressive_disclosure_works_for_vault_builders"
     },
@@ -4809,7 +4809,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "how wikilinks create structure.md",
       "id": "obsidian_reference_how_wikilinks_create_structure"
     },
@@ -4819,7 +4819,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "how wikilinks create structure",
       "id": "obsidian_reference_how_wikilinks_create_structure_how_wikilinks_create_structure"
     },
@@ -4829,7 +4829,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "two types of links",
       "id": "obsidian_reference_how_wikilinks_create_structure_two_types_of_links"
     },
@@ -4839,7 +4839,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "1. body wikilinks (narrative connections)",
       "id": "obsidian_reference_how_wikilinks_create_structure_1_body_wikilinks_narrative_connections"
     },
@@ -4849,7 +4849,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "2. frontmatter edge fields (typed, queryable relationships)",
       "id": "obsidian_reference_how_wikilinks_create_structure_2_frontmatter_edge_fields_typed_queryable_relationships"
     },
@@ -4859,7 +4859,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "how claude follows links",
       "id": "obsidian_reference_how_wikilinks_create_structure_how_claude_follows_links"
     },
@@ -4869,7 +4869,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "wikilink conventions",
       "id": "obsidian_reference_how_wikilinks_create_structure_wikilink_conventions"
     },
@@ -4879,7 +4879,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "links and the knowledge graph",
       "id": "obsidian_reference_how_wikilinks_create_structure_links_and_the_knowledge_graph"
     },
@@ -4889,7 +4889,7 @@
       "source_file": "03 - Resources/Obsidian Reference/How Wikilinks Create Structure.md",
       "source_location": "L87",
       "_origin": "ast",
-      "community": 45,
+      "community": 46,
       "norm_label": "for vault builders",
       "id": "obsidian_reference_how_wikilinks_create_structure_for_vault_builders"
     },
@@ -5034,63 +5034,63 @@
       "id": "obsidian_reference_integration_ecosystem_tool_tiers"
     },
     {
-      "label": "Tier 0 \u2014 Essential (free, required)",
+      "label": "Tier 0 — Essential (free, required)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L36",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 0 \u2014 essential (free, required)",
+      "norm_label": "tier 0 — essential (free, required)",
       "id": "obsidian_reference_integration_ecosystem_tier_0_essential_free_required"
     },
     {
-      "label": "Tier 1 \u2014 Knowledge Graph (free, recommended)",
+      "label": "Tier 1 — Knowledge Graph (free, recommended)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L44",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 1 \u2014 knowledge graph (free, recommended)",
+      "norm_label": "tier 1 — knowledge graph (free, recommended)",
       "id": "obsidian_reference_integration_ecosystem_tier_1_knowledge_graph_free_recommended"
     },
     {
-      "label": "Tier 2 \u2014 Enhanced Navigation (free, recommended)",
+      "label": "Tier 2 — Enhanced Navigation (free, recommended)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L53",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 2 \u2014 enhanced navigation (free, recommended)",
+      "norm_label": "tier 2 — enhanced navigation (free, recommended)",
       "id": "obsidian_reference_integration_ecosystem_tier_2_enhanced_navigation_free_recommended"
     },
     {
-      "label": "Tier 3 \u2014 Google Workspace (free, recommended)",
+      "label": "Tier 3 — Google Workspace (free, recommended)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L59",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 3 \u2014 google workspace (free, recommended)",
+      "norm_label": "tier 3 — google workspace (free, recommended)",
       "id": "obsidian_reference_integration_ecosystem_tier_3_google_workspace_free_recommended"
     },
     {
-      "label": "Tier 4 \u2014 Research Tools (free)",
+      "label": "Tier 4 — Research Tools (free)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L67",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 4 \u2014 research tools (free)",
+      "norm_label": "tier 4 — research tools (free)",
       "id": "obsidian_reference_integration_ecosystem_tier_4_research_tools_free"
     },
     {
-      "label": "Tier 5 \u2014 Premium Integrations (paid, optional)",
+      "label": "Tier 5 — Premium Integrations (paid, optional)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Integration Ecosystem.md",
       "source_location": "L76",
       "_origin": "ast",
       "community": 19,
-      "norm_label": "tier 5 \u2014 premium integrations (paid, optional)",
+      "norm_label": "tier 5 — premium integrations (paid, optional)",
       "id": "obsidian_reference_integration_ecosystem_tier_5_premium_integrations_paid_optional"
     },
     {
@@ -5314,13 +5314,13 @@
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory"
     },
     {
-      "label": "Memory Architecture \u2014 Why Different Kinds of Memory",
+      "label": "Memory Architecture — Why Different Kinds of Memory",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Memory Architecture - Why Different Kinds of Memory.md",
       "source_location": "L12",
       "_origin": "ast",
       "community": 1,
-      "norm_label": "memory architecture \u2014 why different kinds of memory",
+      "norm_label": "memory architecture — why different kinds of memory",
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory_memory_architecture_why_different_kinds_of_memory"
     },
     {
@@ -5394,33 +5394,33 @@
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory_structural_constraints_on_semantic_memory"
     },
     {
-      "label": "Principle 1 \u2014 Bounded branching (the Fano bound)",
+      "label": "Principle 1 — Bounded branching (the Fano bound)",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Memory Architecture - Why Different Kinds of Memory.md",
       "source_location": "L89",
       "_origin": "ast",
       "community": 1,
-      "norm_label": "principle 1 \u2014 bounded branching (the fano bound)",
+      "norm_label": "principle 1 — bounded branching (the fano bound)",
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory_principle_1_bounded_branching_the_fano_bound"
     },
     {
-      "label": "Principle 2 \u2014 Typed edges as interface operations",
+      "label": "Principle 2 — Typed edges as interface operations",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Memory Architecture - Why Different Kinds of Memory.md",
       "source_location": "L97",
       "_origin": "ast",
       "community": 1,
-      "norm_label": "principle 2 \u2014 typed edges as interface operations",
+      "norm_label": "principle 2 — typed edges as interface operations",
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory_principle_2_typed_edges_as_interface_operations"
     },
     {
-      "label": "Principle 3 \u2014 Hierarchical retrieval over flat search",
+      "label": "Principle 3 — Hierarchical retrieval over flat search",
       "file_type": "document",
       "source_file": "03 - Resources/Obsidian Reference/Memory Architecture - Why Different Kinds of Memory.md",
       "source_location": "L105",
       "_origin": "ast",
       "community": 1,
-      "norm_label": "principle 3 \u2014 hierarchical retrieval over flat search",
+      "norm_label": "principle 3 — hierarchical retrieval over flat search",
       "id": "obsidian_reference_memory_architecture_why_different_kinds_of_memory_principle_3_hierarchical_retrieval_over_flat_search"
     },
     {
@@ -5489,7 +5489,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "vault architecture.md",
       "id": "obsidian_reference_vault_architecture"
     },
@@ -5499,7 +5499,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "vault architecture",
       "id": "obsidian_reference_vault_architecture_vault_architecture"
     },
@@ -5509,7 +5509,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "design principles",
       "id": "obsidian_reference_vault_architecture_design_principles"
     },
@@ -5519,7 +5519,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "folder structure",
       "id": "obsidian_reference_vault_architecture_folder_structure"
     },
@@ -5529,7 +5529,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L80",
       "_origin": "ast",
-      "community": 60,
+      "community": 61,
       "norm_label": "the three memory layers",
       "id": "obsidian_reference_vault_architecture_the_three_memory_layers"
     },
@@ -5539,7 +5539,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 60,
+      "community": 61,
       "norm_label": "1. working memory (context window)",
       "id": "obsidian_reference_vault_architecture_1_working_memory_context_window"
     },
@@ -5549,7 +5549,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L89",
       "_origin": "ast",
-      "community": 60,
+      "community": 61,
       "norm_label": "2. procedural memory (skills)",
       "id": "obsidian_reference_vault_architecture_2_procedural_memory_skills"
     },
@@ -5559,7 +5559,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 60,
+      "community": 61,
       "norm_label": "3. semantic memory (the vault itself)",
       "id": "obsidian_reference_vault_architecture_3_semantic_memory_the_vault_itself"
     },
@@ -5569,7 +5569,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L103",
       "_origin": "ast",
-      "community": 34,
+      "community": 62,
       "norm_label": "how claude code interacts with the vault",
       "id": "obsidian_reference_vault_architecture_how_claude_code_interacts_with_the_vault"
     },
@@ -5579,7 +5579,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L105",
       "_origin": "ast",
-      "community": 34,
+      "community": 62,
       "norm_label": "reading (retrieval)",
       "id": "obsidian_reference_vault_architecture_reading_retrieval"
     },
@@ -5589,7 +5589,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L111",
       "_origin": "ast",
-      "community": 34,
+      "community": 62,
       "norm_label": "writing (encoding)",
       "id": "obsidian_reference_vault_architecture_writing_encoding"
     },
@@ -5599,7 +5599,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L117",
       "_origin": "ast",
-      "community": 34,
+      "community": 62,
       "norm_label": "maintaining (meta-cognition)",
       "id": "obsidian_reference_vault_architecture_maintaining_meta_cognition"
     },
@@ -5609,7 +5609,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L125",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "the knowledge graph pipeline",
       "id": "obsidian_reference_vault_architecture_the_knowledge_graph_pipeline"
     },
@@ -5619,7 +5619,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L143",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "cross-repo integration",
       "id": "obsidian_reference_vault_architecture_cross_repo_integration"
     },
@@ -5629,7 +5629,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Vault Architecture.md",
       "source_location": "L154",
       "_origin": "ast",
-      "community": 34,
+      "community": 52,
       "norm_label": "for reference",
       "id": "obsidian_reference_vault_architecture_for_reference"
     },
@@ -5719,7 +5719,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "why para and how we modify it.md",
       "id": "obsidian_reference_why_para_and_how_we_modify_it"
     },
@@ -5729,7 +5729,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "why para and how we modify it",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_why_para_and_how_we_modify_it"
     },
@@ -5739,7 +5739,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "what is para?",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_what_is_para"
     },
@@ -5749,7 +5749,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "why para for an agentic vault?",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_why_para_for_an_agentic_vault"
     },
@@ -5759,7 +5759,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 61,
+      "community": 63,
       "norm_label": "how this vault modifies para",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_how_this_vault_modifies_para"
     },
@@ -5769,7 +5769,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 61,
+      "community": 63,
       "norm_label": "pullein's areas of focus (the \"why\" layer)",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_pullein_s_areas_of_focus_the_why_layer"
     },
@@ -5779,7 +5779,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 61,
+      "community": 63,
       "norm_label": "watching (the \"not yet\" layer)",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_watching_the_not_yet_layer"
     },
@@ -5789,7 +5789,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 61,
+      "community": 63,
       "norm_label": "resources as knowledge graph",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_resources_as_knowledge_graph"
     },
@@ -5799,7 +5799,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "the folder map",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_the_folder_map"
     },
@@ -5809,7 +5809,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "how the router enforces para",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_how_the_router_enforces_para"
     },
@@ -5819,7 +5819,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L125",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "what the router does when it can't find a home",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_what_the_router_does_when_it_can_t_find_a_home"
     },
@@ -5829,7 +5829,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L135",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "the archive lifecycle",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_the_archive_lifecycle"
     },
@@ -5839,7 +5839,7 @@
       "source_file": "03 - Resources/Obsidian Reference/Why PARA and How We Modify It.md",
       "source_location": "L151",
       "_origin": "ast",
-      "community": 46,
+      "community": 47,
       "norm_label": "for reference",
       "id": "obsidian_reference_why_para_and_how_we_modify_it_for_reference"
     },
@@ -6709,7 +6709,7 @@
       "source_file": "03 - Resources/context/claude-code-skills-docs.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 68,
       "norm_label": "claude-code-skills-docs.md",
       "id": "context_claude_code_skills_docs"
     },
@@ -6719,7 +6719,7 @@
       "source_file": "03 - Resources/context/claude-code-skills-docs.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 65,
+      "community": 68,
       "norm_label": "extend claude with skills",
       "id": "context_claude_code_skills_docs_extend_claude_with_skills"
     },
@@ -6729,7 +6729,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "fastai_style_guide.md",
       "id": "context_fastai_style_guide"
     },
@@ -6739,7 +6739,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "fastai coding style",
       "id": "context_fastai_style_guide_fastai_coding_style"
     },
@@ -6749,7 +6749,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "style guide",
       "id": "context_fastai_style_guide_style_guide"
     },
@@ -6759,7 +6759,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "symbol naming",
       "id": "context_fastai_style_guide_symbol_naming"
     },
@@ -6769,7 +6769,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "layout",
       "id": "context_fastai_style_guide_layout"
     },
@@ -6779,7 +6779,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L97",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "algorithms",
       "id": "context_fastai_style_guide_algorithms"
     },
@@ -6789,7 +6789,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L106",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "other stuff",
       "id": "context_fastai_style_guide_other_stuff"
     },
@@ -6799,7 +6799,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L116",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "documentation",
       "id": "context_fastai_style_guide_documentation"
     },
@@ -6809,7 +6809,7 @@
       "source_file": "03 - Resources/context/fastai_style_guide.md",
       "source_location": "L122",
       "_origin": "ast",
-      "community": 43,
+      "community": 44,
       "norm_label": "faq",
       "id": "context_fastai_style_guide_faq"
     },
@@ -6884,23 +6884,23 @@
       "id": "claude_note_typing_and_typed_relationships"
     },
     {
-      "label": "Rules (always loaded \u2014 `.claude/rules/`)",
+      "label": "Rules (always loaded — `.claude/rules/`)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L93",
       "_origin": "ast",
       "community": 24,
-      "norm_label": "rules (always loaded \u2014 `.claude/rules/`)",
+      "norm_label": "rules (always loaded — `.claude/rules/`)",
       "id": "claude_rules_always_loaded_claude_rules"
     },
     {
-      "label": "Skills (loaded on demand \u2014 `.claude/skills/`)",
+      "label": "Skills (loaded on demand — `.claude/skills/`)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L105",
       "_origin": "ast",
       "community": 24,
-      "norm_label": "skills (loaded on demand \u2014 `.claude/skills/`)",
+      "norm_label": "skills (loaded on demand — `.claude/skills/`)",
       "id": "claude_skills_loaded_on_demand_claude_skills"
     },
     {
@@ -6924,13 +6924,13 @@
       "id": "claude_recommended_free_integrations"
     },
     {
-      "label": "Optional Paid Integrations (not shipped \u2014 install separately)",
+      "label": "Optional Paid Integrations (not shipped — install separately)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L132",
       "_origin": "ast",
       "community": 24,
-      "norm_label": "optional paid integrations (not shipped \u2014 install separately)",
+      "norm_label": "optional paid integrations (not shipped — install separately)",
       "id": "claude_optional_paid_integrations_not_shipped_install_separately"
     },
     {
@@ -6964,73 +6964,73 @@
       "id": "readme_en"
     },
     {
-      "label": "\ud83e\udde0 My Knowledge Base",
+      "label": "🧠 My Knowledge Base",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L1",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83e\udde0 my knowledge base",
+      "norm_label": "🧠 my knowledge base",
       "id": "readme_en_my_knowledge_base"
     },
     {
-      "label": "\ud83c\udf10 Enter the Brain (Interactive Graph)",
+      "label": "🌐 Enter the Brain (Interactive Graph)",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L13",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83c\udf10 enter the brain (interactive graph)",
+      "norm_label": "🌐 enter the brain (interactive graph)",
       "id": "readme_en_enter_the_brain_interactive_graph"
     },
     {
-      "label": "\ud83d\udcca Current Size",
+      "label": "📊 Current Size",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L25",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83d\udcca current size",
+      "norm_label": "📊 current size",
       "id": "readme_en_current_size"
     },
     {
-      "label": "\ud83d\udcc1 Structure (PARA System)",
+      "label": "📁 Structure (PARA System)",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L43",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83d\udcc1 structure (para system)",
+      "norm_label": "📁 structure (para system)",
       "id": "readme_en_structure_para_system"
     },
     {
-      "label": "\ud83c\udfaf Current Topics",
+      "label": "🎯 Current Topics",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L56",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83c\udfaf current topics",
+      "norm_label": "🎯 current topics",
       "id": "readme_en_current_topics"
     },
     {
-      "label": "AI \u00d7 Crypto",
+      "label": "AI × Crypto",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L58",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "ai \u00d7 crypto",
+      "norm_label": "ai × crypto",
       "id": "readme_en_ai_crypto"
     },
     {
-      "label": "\ud83d\udee0 How to Use",
+      "label": "🛠 How to Use",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L63",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83d\udee0 how to use",
+      "norm_label": "🛠 how to use",
       "id": "readme_en_how_to_use"
     },
     {
@@ -7064,13 +7064,13 @@
       "id": "readme_en_add_new_notes_via_claude"
     },
     {
-      "label": "\ud83d\udcdc Full Vault Design Docs",
+      "label": "📜 Full Vault Design Docs",
       "file_type": "document",
       "source_file": "README.en.md",
       "source_location": "L84",
       "_origin": "ast",
       "community": 31,
-      "norm_label": "\ud83d\udcdc full vault design docs",
+      "norm_label": "📜 full vault design docs",
       "id": "readme_en_full_vault_design_docs"
     },
     {
@@ -7084,117 +7084,117 @@
       "id": "readme"
     },
     {
-      "label": "\ud83e\udde0 \u6211\u7684\u667a\u5e93 / My Knowledge Base",
+      "label": "🧠 我的智库 / My Knowledge Base",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83e\udde0 \u6211\u7684\u667a\u5e93 / my knowledge base",
-      "id": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base"
+      "community": 34,
+      "norm_label": "🧠 我的智库 / my knowledge base",
+      "id": "readme_我的智库_my_knowledge_base"
     },
     {
-      "label": "\ud83c\udf10 \u8fdb\u5165\u5927\u8111\u7f51\u72b6\u56fe\uff08\u4ea4\u4e92\u5f0f\uff09",
+      "label": "🌐 进入大脑网状图（交互式）",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83c\udf10 \u8fdb\u5165\u5927\u8111\u7f51\u72b6\u56fe(\u4ea4\u4e92\u5f0f)",
-      "id": "readme_\u8fdb\u5165\u5927\u8111\u7f51\u72b6\u56fe_\u4ea4\u4e92\u5f0f"
+      "community": 34,
+      "norm_label": "🌐 进入大脑网状图(交互式)",
+      "id": "readme_进入大脑网状图_交互式"
     },
     {
-      "label": "\ud83d\udcca \u5f53\u524d\u89c4\u6a21",
+      "label": "📊 当前规模",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83d\udcca \u5f53\u524d\u89c4\u6a21",
-      "id": "readme_\u5f53\u524d\u89c4\u6a21"
+      "community": 34,
+      "norm_label": "📊 当前规模",
+      "id": "readme_当前规模"
     },
     {
-      "label": "\ud83d\udcc1 \u5206\u533a\u7ed3\u6784\uff08PARA \u4f53\u7cfb\uff09",
+      "label": "📁 分区结构（PARA 体系）",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83d\udcc1 \u5206\u533a\u7ed3\u6784(para \u4f53\u7cfb)",
-      "id": "readme_\u5206\u533a\u7ed3\u6784_para_\u4f53\u7cfb"
+      "community": 34,
+      "norm_label": "📁 分区结构(para 体系)",
+      "id": "readme_分区结构_para_体系"
     },
     {
-      "label": "\ud83c\udfaf \u5f53\u524d\u4e3b\u9898",
+      "label": "🎯 当前主题",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83c\udfaf \u5f53\u524d\u4e3b\u9898",
-      "id": "readme_\u5f53\u524d\u4e3b\u9898"
+      "community": 34,
+      "norm_label": "🎯 当前主题",
+      "id": "readme_当前主题"
     },
     {
-      "label": "AI \u00d7 Crypto",
+      "label": "AI × Crypto",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "ai \u00d7 crypto",
+      "community": 34,
+      "norm_label": "ai × crypto",
       "id": "readme_ai_crypto"
     },
     {
-      "label": "\ud83d\udee0 \u600e\u4e48\u7528",
+      "label": "🛠 怎么用",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83d\udee0 \u600e\u4e48\u7528",
-      "id": "readme_\u600e\u4e48\u7528"
+      "community": 34,
+      "norm_label": "🛠 怎么用",
+      "id": "readme_怎么用"
     },
     {
-      "label": "\u5728\u672c\u5730\u7528 Obsidian",
+      "label": "在本地用 Obsidian",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\u5728\u672c\u5730\u7528 obsidian",
-      "id": "readme_\u5728\u672c\u5730\u7528_obsidian"
+      "community": 34,
+      "norm_label": "在本地用 obsidian",
+      "id": "readme_在本地用_obsidian"
     },
     {
-      "label": "\u5728 GitHub \u7f51\u9875\u76f4\u63a5\u770b",
+      "label": "在 GitHub 网页直接看",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\u5728 github \u7f51\u9875\u76f4\u63a5\u770b",
-      "id": "readme_\u5728_github_\u7f51\u9875\u76f4\u63a5\u770b"
+      "community": 34,
+      "norm_label": "在 github 网页直接看",
+      "id": "readme_在_github_网页直接看"
     },
     {
-      "label": "\u60f3\u7ed9 Claude \u589e\u52a0\u65b0\u7b14\u8bb0",
+      "label": "想给 Claude 增加新笔记",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L73",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\u60f3\u7ed9 claude \u589e\u52a0\u65b0\u7b14\u8bb0",
-      "id": "readme_\u60f3\u7ed9_claude_\u589e\u52a0\u65b0\u7b14\u8bb0"
+      "community": 34,
+      "norm_label": "想给 claude 增加新笔记",
+      "id": "readme_想给_claude_增加新笔记"
     },
     {
-      "label": "\ud83d\udcdc \u5b8c\u6574\u7684 vault \u8bbe\u8ba1\u6587\u6863",
+      "label": "📜 完整的 vault 设计文档",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 35,
-      "norm_label": "\ud83d\udcdc \u5b8c\u6574\u7684 vault \u8bbe\u8ba1\u6587\u6863",
-      "id": "readme_\u5b8c\u6574\u7684_vault_\u8bbe\u8ba1\u6587\u6863"
+      "community": 34,
+      "norm_label": "📜 完整的 vault 设计文档",
+      "id": "readme_完整的_vault_设计文档"
     },
     {
-      "label": "SETUP.md",
+      "label": "SETUP.md · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L1",
@@ -7204,367 +7204,367 @@
       "id": "setup"
     },
     {
-      "label": "Setup Guide",
+      "label": "Setup Guide · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 41,
+      "community": 42,
       "norm_label": "setup guide",
       "id": "setup_setup_guide"
     },
     {
-      "label": "Tier 0 \u2014 Essential (required)",
+      "label": "Tier 0 — Essential (required) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 47,
-      "norm_label": "tier 0 \u2014 essential (required)",
+      "community": 41,
+      "norm_label": "tier 0 — essential (required)",
       "id": "setup_tier_0_essential_required"
     },
     {
-      "label": "Homebrew (macOS package manager)",
+      "label": "Homebrew (macOS package manager) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 47,
+      "community": 41,
       "norm_label": "homebrew (macos package manager)",
       "id": "setup_homebrew_macos_package_manager"
     },
     {
-      "label": "Git",
+      "label": "Git · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 47,
+      "community": 41,
       "norm_label": "git",
       "id": "setup_git"
     },
     {
-      "label": "Claude Code",
+      "label": "Claude Code · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 47,
+      "community": 41,
       "norm_label": "claude code",
       "id": "setup_claude_code"
     },
     {
-      "label": "Obsidian",
+      "label": "Obsidian · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 47,
+      "community": 41,
       "norm_label": "obsidian",
       "id": "setup_obsidian"
     },
     {
-      "label": "Tier 1 \u2014 Core CLI Tools (strongly recommended)",
+      "label": "Tier 1 — Core CLI Tools (strongly recommended) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 41,
-      "norm_label": "tier 1 \u2014 core cli tools (strongly recommended)",
+      "community": 42,
+      "norm_label": "tier 1 — core cli tools (strongly recommended)",
       "id": "setup_tier_1_core_cli_tools_strongly_recommended"
     },
     {
-      "label": "Tier 2 \u2014 Knowledge Graph Pipeline (recommended)",
+      "label": "Tier 2 — Knowledge Graph Pipeline (recommended) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L97",
       "_origin": "ast",
-      "community": 57,
-      "norm_label": "tier 2 \u2014 knowledge graph pipeline (recommended)",
+      "community": 59,
+      "norm_label": "tier 2 — knowledge graph pipeline (recommended)",
       "id": "setup_tier_2_knowledge_graph_pipeline_recommended"
     },
     {
-      "label": "Python 3 + PyYAML",
+      "label": "Python 3 + PyYAML · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L103",
       "_origin": "ast",
-      "community": 57,
+      "community": 59,
       "norm_label": "python 3 + pyyaml",
       "id": "setup_python_3_pyyaml"
     },
     {
-      "label": "Apache Jena",
+      "label": "Apache Jena · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L111",
       "_origin": "ast",
-      "community": 57,
+      "community": 59,
       "norm_label": "apache jena",
       "id": "setup_apache_jena"
     },
     {
-      "label": "Verify",
+      "label": "Verify · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L121",
       "_origin": "ast",
-      "community": 57,
+      "community": 59,
       "norm_label": "verify",
       "id": "setup_verify"
     },
     {
-      "label": "Configure namespace and build",
+      "label": "Configure namespace and build · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L128",
       "_origin": "ast",
-      "community": 57,
+      "community": 59,
       "norm_label": "configure namespace and build",
       "id": "setup_configure_namespace_and_build"
     },
     {
-      "label": "Tier 3 \u2014 Obsidian CLI (recommended)",
+      "label": "Tier 3 — Obsidian CLI (recommended) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L139",
       "_origin": "ast",
-      "community": 57,
-      "norm_label": "tier 3 \u2014 obsidian cli (recommended)",
+      "community": 59,
+      "norm_label": "tier 3 — obsidian cli (recommended)",
       "id": "setup_tier_3_obsidian_cli_recommended"
     },
     {
-      "label": "Tier 4 \u2014 Claude Code Plugins and Obsidian Skills (strongly recommended)",
+      "label": "Tier 4 — Claude Code Plugins and Obsidian Skills (strongly recommended) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L157",
       "_origin": "ast",
-      "community": 41,
-      "norm_label": "tier 4 \u2014 claude code plugins and obsidian skills (strongly recommended)",
+      "community": 64,
+      "norm_label": "tier 4 — claude code plugins and obsidian skills (strongly recommended)",
       "id": "setup_tier_4_claude_code_plugins_and_obsidian_skills_strongly_recommended"
     },
     {
-      "label": "Obsidian Skills (from kepano/obsidian-skills)",
+      "label": "Obsidian Skills (from kepano/obsidian-skills) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L165",
       "_origin": "ast",
-      "community": 41,
+      "community": 64,
       "norm_label": "obsidian skills (from kepano/obsidian-skills)",
       "id": "setup_obsidian_skills_from_kepano_obsidian_skills"
     },
     {
-      "label": "Recommended Vault Skills",
+      "label": "Recommended Vault Skills · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L191",
       "_origin": "ast",
-      "community": 41,
+      "community": 64,
       "norm_label": "recommended vault skills",
       "id": "setup_recommended_vault_skills"
     },
     {
-      "label": "Superpowers Plugin (for code repos)",
+      "label": "Superpowers Plugin (for code repos) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L201",
       "_origin": "ast",
-      "community": 41,
+      "community": 64,
       "norm_label": "superpowers plugin (for code repos)",
       "id": "setup_superpowers_plugin_for_code_repos"
     },
     {
-      "label": "Tier 5 \u2014 Google Workspace Integration (recommended, free)",
+      "label": "Tier 5 — Google Workspace Integration (recommended, free) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L214",
       "_origin": "ast",
-      "community": 41,
-      "norm_label": "tier 5 \u2014 google workspace integration (recommended, free)",
+      "community": 42,
+      "norm_label": "tier 5 — google workspace integration (recommended, free)",
       "id": "setup_tier_5_google_workspace_integration_recommended_free"
     },
     {
-      "label": "Setup steps",
+      "label": "Setup steps · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L218",
       "_origin": "ast",
-      "community": 41,
+      "community": 42,
       "norm_label": "setup steps",
       "id": "setup_setup_steps"
     },
     {
-      "label": "Tier 6 \u2014 Premium Integrations (optional, paid)",
+      "label": "Tier 6 — Premium Integrations (optional, paid) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L229",
       "_origin": "ast",
-      "community": 62,
-      "norm_label": "tier 6 \u2014 premium integrations (optional, paid)",
+      "community": 42,
+      "norm_label": "tier 6 — premium integrations (optional, paid)",
       "id": "setup_tier_6_premium_integrations_optional_paid"
     },
     {
-      "label": "Readwise (~$8/mo)",
+      "label": "Readwise (~$8/mo) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L233",
       "_origin": "ast",
-      "community": 62,
+      "community": 42,
       "norm_label": "readwise (~$8/mo)",
       "id": "setup_readwise_8_mo"
     },
     {
-      "label": "Todoist (~$4/mo)",
+      "label": "Todoist (~$4/mo) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L238",
       "_origin": "ast",
-      "community": 62,
+      "community": 42,
       "norm_label": "todoist (~$4/mo)",
       "id": "setup_todoist_4_mo"
     },
     {
-      "label": "Paperpile (~$3/mo)",
+      "label": "Paperpile (~$3/mo) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L245",
       "_origin": "ast",
-      "community": 62,
+      "community": 42,
       "norm_label": "paperpile (~$3/mo)",
       "id": "setup_paperpile_3_mo"
     },
     {
-      "label": "Recommended Brewfile",
+      "label": "Recommended Brewfile · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L250",
       "_origin": "ast",
-      "community": 41,
+      "community": 42,
       "norm_label": "recommended brewfile",
       "id": "setup_recommended_brewfile"
     },
     {
-      "label": "Verifying Your Setup",
+      "label": "Verifying Your Setup · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": "L285",
       "_origin": "ast",
-      "community": 41,
+      "community": 42,
       "norm_label": "verifying your setup",
       "id": "setup_verifying_your_setup"
     },
     {
-      "label": "Area of Focus.md",
+      "label": "Area of Focus.md · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "area of focus.md",
       "id": "templates_area_of_focus"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "<% tp.file.title %>",
       "id": "templates_area_of_focus_tp_file_title"
     },
     {
-      "label": "Definition",
+      "label": "Definition · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "definition",
       "id": "templates_area_of_focus_definition"
     },
     {
-      "label": "Standard to Maintain",
+      "label": "Standard to Maintain · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "standard to maintain",
       "id": "templates_area_of_focus_standard_to_maintain"
     },
     {
-      "label": "Current Goals",
+      "label": "Current Goals · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "current goals",
       "id": "templates_area_of_focus_current_goals"
     },
     {
-      "label": "Active Projects",
+      "label": "Active Projects · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "active projects",
       "id": "templates_area_of_focus_active_projects"
     },
     {
-      "label": "Vault Resources",
+      "label": "Vault Resources · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "vault resources",
       "id": "templates_area_of_focus_vault_resources"
     },
     {
-      "label": "Drive / External Resources",
+      "label": "Drive / External Resources · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "drive / external resources",
       "id": "templates_area_of_focus_drive_external_resources"
     },
     {
-      "label": "Recurring Routines",
+      "label": "Recurring Routines · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "recurring routines",
       "id": "templates_area_of_focus_recurring_routines"
     },
     {
-      "label": "Reflection Log",
+      "label": "Reflection Log · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 36,
+      "community": 35,
       "norm_label": "reflection log",
       "id": "templates_area_of_focus_reflection_log"
     },
     {
-      "label": "<% tp.date.now(\"YYYY-MM-DD\") %> \u2014 Initial Setup",
+      "label": "<% tp.date.now(\"YYYY-MM-DD\") %> — Initial Setup · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 36,
-      "norm_label": "<% tp.date.now(\"yyyy-mm-dd\") %> \u2014 initial setup",
+      "community": 35,
+      "norm_label": "<% tp.date.now(\"yyyy-mm-dd\") %> — initial setup",
       "id": "templates_area_of_focus_tp_date_now_yyyy_mm_dd_initial_setup"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L24",
@@ -7574,17 +7574,17 @@
       "id": "templates_concept_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L6",
       "_origin": "ast",
       "community": 23,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_concept_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L19",
@@ -7594,7 +7594,7 @@
       "id": "templates_concept_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L20",
@@ -7604,7 +7604,7 @@
       "id": "templates_concept_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L21",
@@ -7614,7 +7614,7 @@
       "id": "templates_concept_note_curator_suggested_type"
     },
     {
-      "label": "curator_suggested_up:",
+      "label": "curator_suggested_up: · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L22",
@@ -7624,7 +7624,7 @@
       "id": "templates_concept_note_curator_suggested_up"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L23",
@@ -7634,7 +7634,7 @@
       "id": "templates_concept_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L27",
@@ -7644,7 +7644,7 @@
       "id": "templates_concept_note_tp_file_title"
     },
     {
-      "label": "Core Idea",
+      "label": "Core Idea · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L42",
@@ -7654,7 +7654,7 @@
       "id": "templates_concept_note_core_idea"
     },
     {
-      "label": "Why This Matters",
+      "label": "Why This Matters · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L48",
@@ -7664,7 +7664,7 @@
       "id": "templates_concept_note_why_this_matters"
     },
     {
-      "label": "Evidence",
+      "label": "Evidence · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L54",
@@ -7674,7 +7674,7 @@
       "id": "templates_concept_note_evidence"
     },
     {
-      "label": "From Literature",
+      "label": "From Literature · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L56",
@@ -7684,7 +7684,7 @@
       "id": "templates_concept_note_from_literature"
     },
     {
-      "label": "From Implementation",
+      "label": "From Implementation · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L59",
@@ -7694,7 +7694,7 @@
       "id": "templates_concept_note_from_implementation"
     },
     {
-      "label": "Related Concepts",
+      "label": "Related Concepts · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L64",
@@ -7704,7 +7704,7 @@
       "id": "templates_concept_note_related_concepts"
     },
     {
-      "label": "Open Questions",
+      "label": "Open Questions · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": "L73",
@@ -7714,107 +7714,107 @@
       "id": "templates_concept_note_open_questions"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "- \"\"",
       "id": "templates_external_resource_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 42,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "community": 43,
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_external_resource_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "curator fields (uncomment if ontology fit is uncertain)",
       "id": "templates_external_resource_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "curator_status: pending",
       "id": "templates_external_resource_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "curator_suggested_type:",
       "id": "templates_external_resource_note_curator_suggested_type"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "curator_observations:",
       "id": "templates_external_resource_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "<% tp.file.title %>",
       "id": "templates_external_resource_note_tp_file_title"
     },
     {
-      "label": "What It Does",
+      "label": "What It Does · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "what it does",
       "id": "templates_external_resource_note_what_it_does"
     },
     {
-      "label": "Connections",
+      "label": "Connections · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "connections",
       "id": "templates_external_resource_note_connections"
     },
     {
-      "label": "Source",
+      "label": "Source · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 42,
+      "community": 43,
       "norm_label": "source",
       "id": "templates_external_resource_note_source"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L22",
@@ -7824,17 +7824,17 @@
       "id": "templates_implementation_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L7",
       "_origin": "ast",
       "community": 30,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_implementation_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L17",
@@ -7844,7 +7844,7 @@
       "id": "templates_implementation_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L18",
@@ -7854,7 +7854,7 @@
       "id": "templates_implementation_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L19",
@@ -7864,7 +7864,7 @@
       "id": "templates_implementation_note_curator_suggested_type"
     },
     {
-      "label": "curator_suggested_up:",
+      "label": "curator_suggested_up: · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L20",
@@ -7874,7 +7874,7 @@
       "id": "templates_implementation_note_curator_suggested_up"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L21",
@@ -7884,7 +7884,7 @@
       "id": "templates_implementation_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L25",
@@ -7894,7 +7894,7 @@
       "id": "templates_implementation_note_tp_file_title"
     },
     {
-      "label": "What It Is",
+      "label": "What It Is · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L39",
@@ -7904,7 +7904,7 @@
       "id": "templates_implementation_note_what_it_is"
     },
     {
-      "label": "Architecture",
+      "label": "Architecture · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L45",
@@ -7914,7 +7914,7 @@
       "id": "templates_implementation_note_architecture"
     },
     {
-      "label": "Key Files",
+      "label": "Key Files · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L51",
@@ -7924,7 +7924,7 @@
       "id": "templates_implementation_note_key_files"
     },
     {
-      "label": "Results & Learnings",
+      "label": "Results & Learnings · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L58",
@@ -7934,7 +7934,7 @@
       "id": "templates_implementation_note_results_learnings"
     },
     {
-      "label": "Future Work",
+      "label": "Future Work · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": "L64",
@@ -7944,7 +7944,7 @@
       "id": "templates_implementation_note_future_work"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L31",
@@ -7954,17 +7954,17 @@
       "id": "templates_literature_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L12",
       "_origin": "ast",
       "community": 20,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_literature_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L26",
@@ -7974,7 +7974,7 @@
       "id": "templates_literature_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L27",
@@ -7984,7 +7984,7 @@
       "id": "templates_literature_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L28",
@@ -7994,7 +7994,7 @@
       "id": "templates_literature_note_curator_suggested_type"
     },
     {
-      "label": "curator_suggested_up:",
+      "label": "curator_suggested_up: · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L29",
@@ -8004,7 +8004,7 @@
       "id": "templates_literature_note_curator_suggested_up"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L30",
@@ -8014,7 +8014,7 @@
       "id": "templates_literature_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L34",
@@ -8024,7 +8024,7 @@
       "id": "templates_literature_note_tp_file_title"
     },
     {
-      "label": "Summary",
+      "label": "Summary · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L42",
@@ -8034,7 +8034,7 @@
       "id": "templates_literature_note_summary"
     },
     {
-      "label": "Key Contributions",
+      "label": "Key Contributions · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L46",
@@ -8044,7 +8044,7 @@
       "id": "templates_literature_note_key_contributions"
     },
     {
-      "label": "Methodology",
+      "label": "Methodology · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L50",
@@ -8054,7 +8054,7 @@
       "id": "templates_literature_note_methodology"
     },
     {
-      "label": "Results",
+      "label": "Results · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L54",
@@ -8064,7 +8064,7 @@
       "id": "templates_literature_note_results"
     },
     {
-      "label": "Related Concepts",
+      "label": "Related Concepts · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L58",
@@ -8074,7 +8074,7 @@
       "id": "templates_literature_note_related_concepts"
     },
     {
-      "label": "Connections",
+      "label": "Connections · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L62",
@@ -8084,7 +8084,7 @@
       "id": "templates_literature_note_connections"
     },
     {
-      "label": "Critical Analysis",
+      "label": "Critical Analysis · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L66",
@@ -8094,7 +8094,7 @@
       "id": "templates_literature_note_critical_analysis"
     },
     {
-      "label": "Annotations",
+      "label": "Annotations · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": "L70",
@@ -8104,117 +8104,117 @@
       "id": "templates_literature_note_annotations"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "- \"\"",
       "id": "templates_person_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 37,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "community": 36,
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_person_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "curator fields (uncomment if ontology fit is uncertain)",
       "id": "templates_person_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "curator_status: pending",
       "id": "templates_person_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "curator_suggested_type:",
       "id": "templates_person_note_curator_suggested_type"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "curator_observations:",
       "id": "templates_person_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "<% tp.file.title %>",
       "id": "templates_person_note_tp_file_title"
     },
     {
-      "label": "Works in This Vault",
+      "label": "Works in This Vault · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "works in this vault",
       "id": "templates_person_note_works_in_this_vault"
     },
     {
-      "label": "Key Themes",
+      "label": "Key Themes · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "key themes",
       "id": "templates_person_note_key_themes"
     },
     {
-      "label": "External Sources",
+      "label": "External Sources · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "external sources",
       "id": "templates_person_note_external_sources"
     },
     {
-      "label": "Online Presence",
+      "label": "Online Presence · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "online presence",
       "id": "templates_person_note_online_presence"
     },
     {
-      "label": "- \"\"",
+      "label": "- \"\" · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L20",
@@ -8224,17 +8224,17 @@
       "id": "templates_project_note"
     },
     {
-      "label": "Edge fields (typed relationships \u2014 consumed by KG pipeline)",
+      "label": "Edge fields (typed relationships — consumed by KG pipeline) · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L6",
       "_origin": "ast",
       "community": 26,
-      "norm_label": "edge fields (typed relationships \u2014 consumed by kg pipeline)",
+      "norm_label": "edge fields (typed relationships — consumed by kg pipeline)",
       "id": "templates_project_note_edge_fields_typed_relationships_consumed_by_kg_pipeline"
     },
     {
-      "label": "Curator fields (uncomment if ontology fit is uncertain)",
+      "label": "Curator fields (uncomment if ontology fit is uncertain) · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L16",
@@ -8244,7 +8244,7 @@
       "id": "templates_project_note_curator_fields_uncomment_if_ontology_fit_is_uncertain"
     },
     {
-      "label": "curator_status: pending",
+      "label": "curator_status: pending · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L17",
@@ -8254,7 +8254,7 @@
       "id": "templates_project_note_curator_status_pending"
     },
     {
-      "label": "curator_suggested_type:",
+      "label": "curator_suggested_type: · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L18",
@@ -8264,7 +8264,7 @@
       "id": "templates_project_note_curator_suggested_type"
     },
     {
-      "label": "curator_observations:",
+      "label": "curator_observations: · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L19",
@@ -8274,7 +8274,7 @@
       "id": "templates_project_note_curator_observations"
     },
     {
-      "label": "<% tp.file.title %>",
+      "label": "<% tp.file.title %> · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L23",
@@ -8284,7 +8284,7 @@
       "id": "templates_project_note_tp_file_title"
     },
     {
-      "label": "Goals",
+      "label": "Goals · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L39",
@@ -8294,7 +8294,7 @@
       "id": "templates_project_note_goals"
     },
     {
-      "label": "Current Focus",
+      "label": "Current Focus · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L47",
@@ -8304,7 +8304,7 @@
       "id": "templates_project_note_current_focus"
     },
     {
-      "label": "Next Steps",
+      "label": "Next Steps · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L55",
@@ -8314,7 +8314,7 @@
       "id": "templates_project_note_next_steps"
     },
     {
-      "label": "Research Connections",
+      "label": "Research Connections · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L61",
@@ -8324,7 +8324,7 @@
       "id": "templates_project_note_research_connections"
     },
     {
-      "label": "Key Resources",
+      "label": "Key Resources · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L69",
@@ -8334,7 +8334,7 @@
       "id": "templates_project_note_key_resources"
     },
     {
-      "label": "Log",
+      "label": "Log · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L77",
@@ -8344,17 +8344,17 @@
       "id": "templates_project_note_log"
     },
     {
-      "label": "<% tp.date.now(\"YYYY-MM-DD\") %> \u2014 Project Created",
+      "label": "<% tp.date.now(\"YYYY-MM-DD\") %> — Project Created · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": "L79",
       "_origin": "ast",
       "community": 26,
-      "norm_label": "<% tp.date.now(\"yyyy-mm-dd\") %> \u2014 project created",
+      "norm_label": "<% tp.date.now(\"yyyy-mm-dd\") %> — project created",
       "id": "templates_project_note_tp_date_now_yyyy_mm_dd_project_created"
     },
     {
-      "label": "VAULT-INDEX.md",
+      "label": "VAULT-INDEX.md · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L1",
@@ -8364,62 +8364,62 @@
       "id": "vault_index"
     },
     {
-      "label": "Vault Index",
+      "label": "Vault Index · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "vault index",
       "id": "vault_index_vault_index"
     },
     {
-      "label": "Areas of Focus (02 - Areas of Focus/)",
+      "label": "Areas of Focus (02 - Areas of Focus/) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "areas of focus (02 - areas of focus/)",
       "id": "vault_index_areas_of_focus_02_areas_of_focus"
     },
     {
-      "label": "Projects (01 - Projects/)",
+      "label": "Projects (01 - Projects/) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "projects (01 - projects/)",
       "id": "vault_index_projects_01_projects"
     },
     {
-      "label": "Resources (03 - Resources/)",
+      "label": "Resources (03 - Resources/) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "resources (03 - resources/)",
       "id": "vault_index_resources_03_resources"
     },
     {
-      "label": "Vault Reference",
+      "label": "Vault Reference · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "vault reference",
       "id": "vault_index_vault_reference"
     },
     {
-      "label": "Watching (05 - Watching/)",
+      "label": "Watching (05 - Watching/) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 58,
+      "community": 60,
       "norm_label": "watching (05 - watching/)",
       "id": "vault_index_watching_05_watching"
     },
@@ -8751,26 +8751,26 @@
     {
       "label": "About Bittensor 2025 Transcript",
       "file_type": "document",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/assets/About-Bittensor-2025-transcript.txt",
+      "source_file": "03 - Resources/AI × Crypto/assets/About-Bittensor-2025-transcript.txt",
       "source_location": null,
       "source_url": "https://youtu.be/yRzc-WTyXXw",
       "captured_at": null,
       "author": "Const (Jacob Steeves)",
       "contributor": null,
-      "community": 75,
+      "community": 77,
       "norm_label": "about bittensor 2025 transcript",
       "id": "about_bittensor_2025_transcript"
     },
     {
       "label": "Bittensor video thumbnail (Const speaker portrait)",
       "file_type": "image",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/assets/video-thumbnail.jpg",
+      "source_file": "03 - Resources/AI × Crypto/assets/video-thumbnail.jpg",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 74,
+      "community": 76,
       "norm_label": "bittensor video thumbnail (const speaker portrait)",
       "id": "about_bittensor_2025_thumbnail"
     },
@@ -8892,7 +8892,7 @@
       "id": "claude_code_skills_docs_claude_code_skills"
     },
     {
-      "label": "Area of Focus Template",
+      "label": "Area of Focus Template · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": null,
@@ -8905,7 +8905,7 @@
       "id": "area_of_focus_template"
     },
     {
-      "label": "Concept Note Template",
+      "label": "Concept Note Template · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": null,
@@ -8918,7 +8918,7 @@
       "id": "concept_note_template"
     },
     {
-      "label": "External Resource Note Template",
+      "label": "External Resource Note Template · 外部资源",
       "file_type": "document",
       "source_file": "Templates/External Resource Note.md",
       "source_location": null,
@@ -8931,7 +8931,7 @@
       "id": "external_resource_note_template"
     },
     {
-      "label": "Implementation Note Template",
+      "label": "Implementation Note Template · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -8944,7 +8944,7 @@
       "id": "implementation_note_template"
     },
     {
-      "label": "Literature Note Template",
+      "label": "Literature Note Template · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -8957,7 +8957,7 @@
       "id": "literature_note_template"
     },
     {
-      "label": "Person Note Template",
+      "label": "Person Note Template · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": null,
@@ -8970,7 +8970,7 @@
       "id": "person_note_template"
     },
     {
-      "label": "Project Note Template",
+      "label": "Project Note Template · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -8983,7 +8983,7 @@
       "id": "project_note_template"
     },
     {
-      "label": "implementation-note type",
+      "label": "implementation-note type · 实现笔记",
       "file_type": "concept",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -8996,7 +8996,7 @@
       "id": "implementation_note_type"
     },
     {
-      "label": "literature-note type",
+      "label": "literature-note type · 文献笔记",
       "file_type": "concept",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -9009,7 +9009,7 @@
       "id": "literature_note_type"
     },
     {
-      "label": "author-note type",
+      "label": "author-note type · 人物笔记",
       "file_type": "concept",
       "source_file": "Templates/Person Note.md",
       "source_location": null,
@@ -9022,7 +9022,7 @@
       "id": "author_note_type"
     },
     {
-      "label": "project type",
+      "label": "project type · 项目笔记",
       "file_type": "concept",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -9035,7 +9035,7 @@
       "id": "project_type"
     },
     {
-      "label": "concept: edge field",
+      "label": "concept: edge field · 实现笔记",
       "file_type": "concept",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -9048,7 +9048,7 @@
       "id": "implementation_note_concept_edge"
     },
     {
-      "label": "source: edge field",
+      "label": "source: edge field · 实现笔记",
       "file_type": "concept",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -9061,7 +9061,7 @@
       "id": "implementation_note_source_edge"
     },
     {
-      "label": "author: edge field",
+      "label": "author: edge field · 文献笔记",
       "file_type": "concept",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -9074,7 +9074,7 @@
       "id": "literature_note_author_edge"
     },
     {
-      "label": "criticizes: edge field",
+      "label": "criticizes: edge field · 文献笔记",
       "file_type": "concept",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -9087,7 +9087,7 @@
       "id": "literature_note_criticizes_edge"
     },
     {
-      "label": "supports: edge field",
+      "label": "supports: edge field · 文献笔记",
       "file_type": "concept",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -9100,7 +9100,7 @@
       "id": "literature_note_supports_edge"
     },
     {
-      "label": "affiliation: edge field",
+      "label": "affiliation: edge field · 人物笔记",
       "file_type": "concept",
       "source_file": "Templates/Person Note.md",
       "source_location": null,
@@ -9113,7 +9113,7 @@
       "id": "person_note_affiliation_edge"
     },
     {
-      "label": "area: edge field",
+      "label": "area: edge field · 项目笔记",
       "file_type": "concept",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -9126,7 +9126,7 @@
       "id": "project_note_area_edge"
     },
     {
-      "label": "collaborator: edge field",
+      "label": "collaborator: edge field · 项目笔记",
       "file_type": "concept",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -9139,7 +9139,7 @@
       "id": "project_note_collaborator_edge"
     },
     {
-      "label": "VAULT-INDEX",
+      "label": "VAULT-INDEX · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -9152,7 +9152,7 @@
       "id": "project_note_vault_index"
     },
     {
-      "label": "KG Pipeline",
+      "label": "KG Pipeline · 实现笔记",
       "file_type": "concept",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -9165,7 +9165,7 @@
       "id": "kg_pipeline"
     },
     {
-      "label": "Curator Observation Fields",
+      "label": "Curator Observation Fields · 实现笔记",
       "file_type": "concept",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -9186,12 +9186,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "my knowledge base (en)",
       "id": "readme_en_knowledge_base"
     },
     {
-      "label": "\u6211\u7684\u667a\u5e93 (ZH)",
+      "label": "我的智库 (ZH)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": null,
@@ -9199,12 +9199,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
-      "norm_label": "\u6211\u7684\u667a\u5e93 (zh)",
+      "community": 37,
+      "norm_label": "我的智库 (zh)",
       "id": "readme_zh_knowledge_base"
     },
     {
-      "label": "Setup Guide (EN)",
+      "label": "Setup Guide (EN) · 安装指南",
       "file_type": "document",
       "source_file": "SETUP.md",
       "source_location": null,
@@ -9212,12 +9212,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 41,
       "norm_label": "setup guide (en)",
       "id": "setup_en_guide"
     },
     {
-      "label": "Vault Index (EN)",
+      "label": "Vault Index (EN) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9230,7 +9230,7 @@
       "id": "vaultindex_en_root"
     },
     {
-      "label": "Area of Focus Template (EN)",
+      "label": "Area of Focus Template (EN) · 关注领域",
       "file_type": "document",
       "source_file": "Templates/Area of Focus.md",
       "source_location": null,
@@ -9238,12 +9238,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "area of focus template (en)",
       "id": "area_of_focus_template_en"
     },
     {
-      "label": "Concept Note Template (EN)",
+      "label": "Concept Note Template (EN) · 概念笔记",
       "file_type": "document",
       "source_file": "Templates/Concept Note.md",
       "source_location": null,
@@ -9251,25 +9251,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "concept note template (en)",
       "id": "concept_note_template_en"
     },
     {
-      "label": "External Resource Template (EN)",
-      "file_type": "document",
-      "source_file": "Templates/External Resource Note.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 78,
-      "norm_label": "external resource template (en)",
-      "id": "external_resource_template_en"
-    },
-    {
-      "label": "Implementation Note Template (EN)",
+      "label": "Implementation Note Template (EN) · 实现笔记",
       "file_type": "document",
       "source_file": "Templates/Implementation Note.md",
       "source_location": null,
@@ -9277,12 +9264,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "implementation note template (en)",
       "id": "implementation_note_template_en"
     },
     {
-      "label": "Literature Note Template (EN)",
+      "label": "Literature Note Template (EN) · 文献笔记",
       "file_type": "document",
       "source_file": "Templates/Literature Note.md",
       "source_location": null,
@@ -9290,12 +9277,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "literature note template (en)",
       "id": "literature_note_template_en"
     },
     {
-      "label": "Person Note Template (EN)",
+      "label": "Person Note Template (EN) · 人物笔记",
       "file_type": "document",
       "source_file": "Templates/Person Note.md",
       "source_location": null,
@@ -9303,12 +9290,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "person note template (en)",
       "id": "person_note_template_en"
     },
     {
-      "label": "Project Note Template (EN)",
+      "label": "Project Note Template (EN) · 项目笔记",
       "file_type": "document",
       "source_file": "Templates/Project Note.md",
       "source_location": null,
@@ -9316,7 +9303,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "project note template (en)",
       "id": "project_note_template_en"
     },
@@ -9329,7 +9316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "para system",
       "id": "readme_en_para_concept"
     },
@@ -9342,12 +9329,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "about bittensor 2025",
       "id": "readme_en_bittensor_2025"
     },
     {
-      "label": "Quarto",
+      "label": "Quarto · 安装指南",
       "file_type": "concept",
       "source_file": "SETUP.md",
       "source_location": null,
@@ -9355,12 +9342,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 41,
       "norm_label": "quarto",
       "id": "setup_en_quarto"
     },
     {
-      "label": "Obsidian Skills (kepano)",
+      "label": "Obsidian Skills (kepano) · 安装指南",
       "file_type": "concept",
       "source_file": "SETUP.md",
       "source_location": null,
@@ -9368,12 +9355,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 41,
       "norm_label": "obsidian skills (kepano)",
       "id": "setup_en_obsidian_skills"
     },
     {
-      "label": "Knowledge Graph Pipeline",
+      "label": "Knowledge Graph Pipeline · 安装指南",
       "file_type": "concept",
       "source_file": "SETUP.md",
       "source_location": null,
@@ -9381,12 +9368,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 41,
       "norm_label": "knowledge graph pipeline",
       "id": "setup_en_kg_pipeline"
     },
     {
-      "label": "Areas of Focus - Pullein Methodology",
+      "label": "Areas of Focus - Pullein Methodology · 知识库索引",
       "file_type": "concept",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9399,7 +9386,7 @@
       "id": "vaultindex_en_areas_of_focus"
     },
     {
-      "label": "LITERATURE-INDEX",
+      "label": "LITERATURE-INDEX · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9412,7 +9399,7 @@
       "id": "vaultindex_en_literature_index"
     },
     {
-      "label": "How Progressive Disclosure Works",
+      "label": "How Progressive Disclosure Works · 知识库索引",
       "file_type": "concept",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9425,7 +9412,7 @@
       "id": "vaultindex_en_progressive_disclosure"
     },
     {
-      "label": "Memory Architecture",
+      "label": "Memory Architecture · 知识库索引",
       "file_type": "concept",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9438,7 +9425,7 @@
       "id": "vaultindex_en_memory_architecture"
     },
     {
-      "label": "Vault Architecture",
+      "label": "Vault Architecture · 知识库索引",
       "file_type": "concept",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9451,7 +9438,7 @@
       "id": "vaultindex_en_vault_architecture"
     },
     {
-      "label": "Vault Vocabulary",
+      "label": "Vault Vocabulary · 知识库索引",
       "file_type": "concept",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9469,7 +9456,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "userignorefilters",
       "id": "obsidian_app_userignorefilters"
     },
@@ -9479,7 +9466,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "showinlinetitle",
       "id": "obsidian_app_showinlinetitle"
     },
@@ -9489,7 +9476,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "newfilelocation",
       "id": "obsidian_app_newfilelocation"
     },
@@ -9499,7 +9486,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "attachmentfolderpath",
       "id": "obsidian_app_attachmentfolderpath"
     },
@@ -9509,7 +9496,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "alwaysupdatelinks",
       "id": "obsidian_app_alwaysupdatelinks"
     },
@@ -9519,7 +9506,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "defaultviewmode",
       "id": "obsidian_app_defaultviewmode"
     },
@@ -9529,7 +9516,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "livepreview",
       "id": "obsidian_app_livepreview"
     },
@@ -9539,7 +9526,7 @@
       "source_file": ".obsidian/app.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 44,
+      "community": 45,
       "norm_label": "showlinenumber",
       "id": "obsidian_app_showlinenumber"
     },
@@ -9552,12 +9539,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "vault index (english)",
       "id": "vaultindex_en"
     },
     {
-      "label": "Vault \u7d22\u5f15 (\u4e2d\u6587)",
+      "label": "Vault 索引 (中文) · 知识库索引",
       "file_type": "document",
       "source_file": "VAULT-INDEX.md",
       "source_location": null,
@@ -9565,177 +9552,60 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
-      "norm_label": "vault \u7d22\u5f15 (\u4e2d\u6587)",
+      "community": 37,
+      "norm_label": "vault 索引 (中文)",
       "id": "vaultindex_zh"
     },
     {
       "label": "Incentive Computing",
       "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 12,
       "norm_label": "incentive computing",
       "id": "about_bittensor_2025_concept_incentive_computing"
     },
     {
-      "label": "Bittensor",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 59,
-      "norm_label": "bittensor",
-      "id": "about_bittensor_2025_concept_bittensor"
-    },
-    {
       "label": "Bitcoin as Supercomputer",
       "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 12,
       "norm_label": "bitcoin as supercomputer",
       "id": "about_bittensor_2025_concept_bitcoin_as_supercomputer"
     },
     {
-      "label": "Decentralized AI Training",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 69,
-      "norm_label": "decentralized ai training",
-      "id": "about_bittensor_2025_concept_decentralized_ai_training"
-    },
-    {
-      "label": "AlexNet",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 64,
-      "norm_label": "alexnet",
-      "id": "about_bittensor_2025_concept_alexnet"
-    },
-    {
-      "label": "Reinforcement Learning",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 72,
-      "norm_label": "reinforcement learning",
-      "id": "about_bittensor_2025_concept_reinforcement_learning"
-    },
-    {
-      "label": "Gradient Descent",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 64,
-      "norm_label": "gradient descent",
-      "id": "about_bittensor_2025_concept_gradient_descent"
-    },
-    {
-      "label": "Const (Jacob Steeves)",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 68,
-      "norm_label": "const (jacob steeves)",
-      "id": "about_bittensor_2025_author_const_jacob_steeves"
-    },
-    {
-      "label": "DePIN",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 70,
-      "norm_label": "depin",
-      "id": "about_bittensor_2025_concept_depin"
-    },
-    {
-      "label": "OpenRouter",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 71,
-      "norm_label": "openrouter",
-      "id": "about_bittensor_2025_concept_openrouter"
-    },
-    {
-      "label": "SWE-Bench",
-      "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 73,
-      "norm_label": "swe-bench",
-      "id": "about_bittensor_2025_concept_swe_bench"
-    },
-    {
       "label": "Dynamic TAO",
       "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 12,
       "norm_label": "dynamic tao",
       "id": "about_bittensor_2025_concept_dynamic_tao"
     },
     {
-      "label": "AI \u00d7 Crypto",
+      "label": "AI × Crypto",
       "file_type": "concept",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
-      "norm_label": "ai \u00d7 crypto",
+      "community": 75,
+      "norm_label": "ai × crypto",
       "id": "about_bittensor_2025_area_ai_crypto"
     },
     {
@@ -9747,7 +9617,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 37,
       "norm_label": "area of focus template (english)",
       "id": "area_of_focus_en_template"
     },
@@ -9760,7 +9630,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 77,
+      "community": 79,
       "norm_label": "external resource note template (english)",
       "id": "external_resource_note_en_template"
     },
@@ -9773,9 +9643,464 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "project note template (english)",
       "id": "project_note_en_template"
+    },
+    {
+      "label": "安装指南 (ZH)",
+      "file_type": "document",
+      "source_file": "SETUP.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 41,
+      "norm_label": "安装指南 (zh)",
+      "id": "setup_zh_guide"
+    },
+    {
+      "label": "Vault Index (EN)",
+      "file_type": "document",
+      "source_file": "VAULT-INDEX.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 37,
+      "norm_label": "vault index (en)",
+      "id": "vault_index_en"
+    },
+    {
+      "label": "知识库索引 (ZH)",
+      "file_type": "document",
+      "source_file": "VAULT-INDEX.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 37,
+      "norm_label": "知识库索引 (zh)",
+      "id": "vault_index_zh"
+    },
+    {
+      "label": "About Bittensor 2025 (EN)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": "https://youtu.be/yRzc-WTyXXw",
+      "captured_at": "2026-06-23",
+      "author": "Const (Jacob Steeves)",
+      "contributor": null,
+      "community": 12,
+      "norm_label": "about bittensor 2025 (en)",
+      "id": "about_bittensor_2025_en"
+    },
+    {
+      "label": "关于 Bittensor 2025 (ZH)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
+      "source_location": null,
+      "source_url": "https://youtu.be/yRzc-WTyXXw",
+      "captured_at": "2026-06-23",
+      "author": "Const (Jacob Steeves)",
+      "contributor": null,
+      "community": 12,
+      "norm_label": "关于 bittensor 2025 (zh)",
+      "id": "about_bittensor_2025_zh"
+    },
+    {
+      "label": "Bitcoin as Supercomputer (EN)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-23",
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "bitcoin as supercomputer (en)",
+      "id": "bitcoin_as_supercomputer_en"
+    },
+    {
+      "label": "比特币是超级计算机 (ZH)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-23",
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "比特币是超级计算机 (zh)",
+      "id": "bitcoin_as_supercomputer_zh"
+    },
+    {
+      "label": "Bittensor Subnet Architecture (EN)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-23",
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "bittensor subnet architecture (en)",
+      "id": "bittensor_subnet_architecture_en"
+    },
+    {
+      "label": "Bittensor 子网架构 (ZH)",
+      "file_type": "document",
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-23",
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "bittensor 子网架构 (zh)",
+      "id": "bittensor_subnet_architecture_zh"
+    },
+    {
+      "label": "Area of Focus Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Area of Focus.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 66,
+      "norm_label": "area of focus template (en)",
+      "id": "area_of_focus_en"
+    },
+    {
+      "label": "关注领域模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Area of Focus.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 66,
+      "norm_label": "关注领域模板 (zh)",
+      "id": "area_of_focus_zh"
+    },
+    {
+      "label": "Concept Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Concept Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 67,
+      "norm_label": "concept note template (en)",
+      "id": "concept_note_en"
+    },
+    {
+      "label": "概念笔记模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Concept Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 67,
+      "norm_label": "概念笔记模板 (zh)",
+      "id": "concept_note_zh"
+    },
+    {
+      "label": "External Resource Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/External Resource Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 69,
+      "norm_label": "external resource note template (en)",
+      "id": "external_resource_note_en"
+    },
+    {
+      "label": "外部资源模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/External Resource Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 69,
+      "norm_label": "外部资源模板 (zh)",
+      "id": "external_resource_note_zh"
+    },
+    {
+      "label": "Implementation Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Implementation Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 70,
+      "norm_label": "implementation note template (en)",
+      "id": "implementation_note_en"
+    },
+    {
+      "label": "实现笔记模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Implementation Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 70,
+      "norm_label": "实现笔记模板 (zh)",
+      "id": "implementation_note_zh"
+    },
+    {
+      "label": "Literature Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Literature Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 72,
+      "norm_label": "literature note template (en)",
+      "id": "literature_note_en"
+    },
+    {
+      "label": "文献笔记模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Literature Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 72,
+      "norm_label": "文献笔记模板 (zh)",
+      "id": "literature_note_zh"
+    },
+    {
+      "label": "Person Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Person Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 73,
+      "norm_label": "person note template (en)",
+      "id": "person_note_en"
+    },
+    {
+      "label": "人物笔记模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Person Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 73,
+      "norm_label": "人物笔记模板 (zh)",
+      "id": "person_note_zh"
+    },
+    {
+      "label": "Project Note Template (EN)",
+      "file_type": "document",
+      "source_file": "Templates/Project Note.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 74,
+      "norm_label": "project note template (en)",
+      "id": "project_note_en"
+    },
+    {
+      "label": "项目笔记模板 (ZH)",
+      "file_type": "document",
+      "source_file": "Templates/Project Note.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 74,
+      "norm_label": "项目笔记模板 (zh)",
+      "id": "project_note_zh"
+    },
+    {
+      "label": "Incentive Computing",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "incentive computing",
+      "id": "concept_incentive_computing"
+    },
+    {
+      "label": "Bittensor",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "bittensor",
+      "id": "concept_bittensor"
+    },
+    {
+      "label": "Decentralized AI Training",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "decentralized ai training",
+      "id": "concept_decentralized_ai_training"
+    },
+    {
+      "label": "Dynamic TAO",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "dynamic tao",
+      "id": "concept_dynamic_tao"
+    },
+    {
+      "label": "AlexNet",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "alexnet",
+      "id": "concept_alexnet"
+    },
+    {
+      "label": "Reinforcement Learning",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "reinforcement learning",
+      "id": "concept_reinforcement_learning"
+    },
+    {
+      "label": "Gradient Descent",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "gradient descent",
+      "id": "concept_gradient_descent"
+    },
+    {
+      "label": "DePIN",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "depin",
+      "id": "concept_depin"
+    },
+    {
+      "label": "OpenRouter",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "openrouter",
+      "id": "concept_openrouter"
+    },
+    {
+      "label": "SWE-Bench",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "swe-bench",
+      "id": "concept_swe_bench"
+    },
+    {
+      "label": "AI × Crypto (Area of Focus)",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "ai × crypto (area of focus)",
+      "id": "concept_ai_crypto_area"
+    },
+    {
+      "label": "Const (Jacob Steeves)",
+      "file_type": "concept",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 12,
+      "norm_label": "const (jacob steeves)",
+      "id": "person_const_steeves"
     }
   ],
   "links": [
@@ -14375,27 +14700,27 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L205",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b"
+      "target": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L291",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_dynamic_tao_\u628a\u6fc0\u52b1\u8ba1\u7b97\u5e94\u7528\u5230\u6fc0\u52b1\u8ba1\u7b97\u81ea\u8eab"
+      "target": "ai_crypto_about_bittensor_2025_dynamic_tao_把激励计算应用到激励计算自身"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L380",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -14405,162 +14730,162 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L102",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_1_ai_\u7684\u771f\u6b63\u9769\u547d\u53d1\u751f\u5728_2012"
+      "target": "ai_crypto_about_bittensor_2025_关键论点_1_ai_的真正革命发生在_2012"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L125",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_2_\u6bd4\u7279\u5e01\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u8d85\u7ea7\u8ba1\u7b97\u673a"
+      "target": "ai_crypto_about_bittensor_2025_关键论点_2_比特币是世界上最大的超级计算机"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L179",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_3_bittensor_\u662f_\u6fc0\u52b1\u8ba1\u7b97\u7684\u901a\u7528\u8bed\u8a00"
+      "target": "ai_crypto_about_bittensor_2025_关键论点_3_bittensor_是_激励计算的通用语言"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L370",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u53ef\u4ee5\u6df1\u5165\u7684\u65b9\u5411"
+      "target": "ai_crypto_about_bittensor_2025_可以深入的方向"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L69",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u6838\u5fc3\u8bba\u70b9_\u4e00\u4e2a\u7edf\u4e00\u7684\u53cd\u9988\u5faa\u73af"
+      "target": "ai_crypto_about_bittensor_2025_核心论点_一个统一的反馈循环"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L51",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u6f14\u8bb2\u8005\u80cc\u666f"
+      "target": "ai_crypto_about_bittensor_2025_演讲者背景"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L305",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u7075\u9b42\u62f7\u95ee_\u4e3a\u4ec0\u4e48\u4f60\u5e94\u8be5\u5173\u6ce8"
+      "target": "ai_crypto_about_bittensor_2025_灵魂拷问_为什么你应该关注"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L345",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ai_crypto_about_bittensor_2025_about_bittensor_2025",
-      "target": "ai_crypto_about_bittensor_2025_\u89c6\u9891\u4e2d\u7684\u5173\u952e\u753b\u9762\u7d22\u5f15"
+      "target": "ai_crypto_about_bittensor_2025_视频中的关键画面索引"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L86",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_\u6838\u5fc3\u8bba\u70b9_\u4e00\u4e2a\u7edf\u4e00\u7684\u53cd\u9988\u5faa\u73af",
-      "target": "ai_crypto_about_bittensor_2025_\u8fd9\u4e2a\u6a21\u5f0f\u5728\u54ea\u4e9b\u5730\u65b9\u51fa\u73b0"
+      "source": "ai_crypto_about_bittensor_2025_核心论点_一个统一的反馈循环",
+      "target": "ai_crypto_about_bittensor_2025_这个模式在哪些地方出现"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L148",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_\u5173\u952e\u8bba\u70b9_2_\u6bd4\u7279\u5e01\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u8d85\u7ea7\u8ba1\u7b97\u673a",
-      "target": "ai_crypto_about_bittensor_2025_\u4e3a\u4ec0\u4e48\u8fd9\u4e48\u79bb\u8c31\u5730\u9ad8\u6548"
+      "source": "ai_crypto_about_bittensor_2025_关键论点_2_比特币是世界上最大的超级计算机",
+      "target": "ai_crypto_about_bittensor_2025_为什么这么离谱地高效"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L207",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_1_\u7f16\u7a0b\u667a\u80fd\u5b50\u7f51_swe_bench"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_1_编程智能子网_swe_bench"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L230",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_2_\u53bb\u4e2d\u5fc3\u5316\u8bad\u7ec3_70b_\u5927\u6a21\u578b"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_2_去中心化训练_70b_大模型"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L244",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_3_gpu_\u7b97\u529b\u5e02\u573a_depin"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_3_gpu_算力市场_depin"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L250",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_4_\u63a8\u7406\u7f51\u7edc"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_4_推理网络"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L255",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_5_\u673a\u5668\u4eba_\u7269\u7406\u4e16\u754c\u4f18\u5316"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_5_机器人_物理世界优化"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
       "source_location": "L260",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ai_crypto_about_bittensor_2025_6_\u4e2a\u771f\u5b9e\u5b50\u7f51\u6848\u4f8b_\u89c6\u9891\u4e2d\u7684_\u9707\u64bc\u65f6\u523b",
-      "target": "ai_crypto_about_bittensor_2025_\u6848\u4f8b_6_9_\u7c7b\u6742\u9879\u5b50\u7f51"
+      "source": "ai_crypto_about_bittensor_2025_6_个真实子网案例_视频中的_震撼时刻",
+      "target": "ai_crypto_about_bittensor_2025_案例_6_9_类杂项子网"
     },
     {
       "relation": "contains",
@@ -17240,7 +17565,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base"
+      "target": "readme_我的智库_my_knowledge_base"
     },
     {
       "relation": "references",
@@ -17269,8 +17594,8 @@
       "source_location": "L43",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u5206\u533a\u7ed3\u6784_para_\u4f53\u7cfb"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_分区结构_para_体系"
     },
     {
       "relation": "contains",
@@ -17279,8 +17604,8 @@
       "source_location": "L84",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u5b8c\u6574\u7684_vault_\u8bbe\u8ba1\u6587\u6863"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_完整的_vault_设计文档"
     },
     {
       "relation": "contains",
@@ -17289,8 +17614,8 @@
       "source_location": "L56",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u5f53\u524d\u4e3b\u9898"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_当前主题"
     },
     {
       "relation": "contains",
@@ -17299,8 +17624,8 @@
       "source_location": "L25",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u5f53\u524d\u89c4\u6a21"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_当前规模"
     },
     {
       "relation": "contains",
@@ -17309,8 +17634,8 @@
       "source_location": "L63",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u600e\u4e48\u7528"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_怎么用"
     },
     {
       "relation": "contains",
@@ -17319,8 +17644,8 @@
       "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u6211\u7684\u667a\u5e93_my_knowledge_base",
-      "target": "readme_\u8fdb\u5165\u5927\u8111\u7f51\u72b6\u56fe_\u4ea4\u4e92\u5f0f"
+      "source": "readme_我的智库_my_knowledge_base",
+      "target": "readme_进入大脑网状图_交互式"
     },
     {
       "relation": "contains",
@@ -17329,7 +17654,7 @@
       "source_location": "L58",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u5f53\u524d\u4e3b\u9898",
+      "source": "readme_当前主题",
       "target": "readme_ai_crypto"
     },
     {
@@ -17339,8 +17664,8 @@
       "source_location": "L70",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u600e\u4e48\u7528",
-      "target": "readme_\u5728_github_\u7f51\u9875\u76f4\u63a5\u770b"
+      "source": "readme_怎么用",
+      "target": "readme_在_github_网页直接看"
     },
     {
       "relation": "contains",
@@ -17349,8 +17674,8 @@
       "source_location": "L65",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u600e\u4e48\u7528",
-      "target": "readme_\u5728\u672c\u5730\u7528_obsidian"
+      "source": "readme_怎么用",
+      "target": "readme_在本地用_obsidian"
     },
     {
       "relation": "contains",
@@ -17359,8 +17684,8 @@
       "source_location": "L73",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_\u600e\u4e48\u7528",
-      "target": "readme_\u60f3\u7ed9_claude_\u589e\u52a0\u65b0\u7b14\u8bb0"
+      "source": "readme_怎么用",
+      "target": "readme_想给_claude_增加新笔记"
     },
     {
       "relation": "references",
@@ -19450,6 +19775,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "readme_en_knowledge_base",
+      "target": "about_bittensor_2025_en"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_en_knowledge_base",
       "target": "readme_en_bittensor_2025"
     },
     {
@@ -19490,6 +19825,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "readme_en_knowledge_base",
+      "target": "vault_index_en"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_en_knowledge_base",
       "target": "vaultindex_en"
     },
     {
@@ -19520,6 +19865,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "readme_zh_knowledge_base",
+      "target": "about_bittensor_2025_zh"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_zh_knowledge_base",
       "target": "readme_en_bittensor_2025"
     },
     {
@@ -19531,6 +19886,26 @@
       "weight": 1.0,
       "source": "readme_zh_knowledge_base",
       "target": "setup_en_guide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_zh_knowledge_base",
+      "target": "setup_zh_guide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_zh_knowledge_base",
+      "target": "vault_index_zh"
     },
     {
       "relation": "references",
@@ -19581,6 +19956,16 @@
       "weight": 1.0,
       "source": "setup_en_guide",
       "target": "setup_en_quarto"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SETUP.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "setup_en_guide",
+      "target": "setup_zh_guide"
     },
     {
       "relation": "references",
@@ -19776,7 +20161,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "weight": 0.85,
       "source": "about_bittensor_2025_concept_bitcoin_as_supercomputer",
@@ -19786,33 +20171,463 @@
       "relation": "implements",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "weight": 0.85,
-      "source": "about_bittensor_2025_concept_bittensor",
+      "source": "concept_bittensor",
       "target": "about_bittensor_2025_concept_incentive_computing"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "weight": 0.8,
       "source": "about_bittensor_2025_concept_dynamic_tao",
-      "target": "about_bittensor_2025_concept_bittensor"
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "VAULT-INDEX.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "vault_index_en",
+      "target": "vault_index_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "about_bittensor_2025_zh"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_ai_crypto_area"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_alexnet"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_decentralized_ai_training"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_depin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_dynamic_tao"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_gradient_descent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_openrouter"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_reinforcement_learning"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "concept_swe_bench"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_en",
+      "target": "person_const_steeves"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "about_bittensor_2025_en"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_en",
+      "target": "about_bittensor_2025_en"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_zh",
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "about_bittensor_2025_zh",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_zh",
+      "target": "about_bittensor_2025_zh"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_zh",
+      "target": "about_bittensor_2025_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "bitcoin_as_supercomputer_zh"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "bittensor_subnet_architecture_en"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "concept_ai_crypto_area"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "concept_decentralized_ai_training"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "concept_depin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_en",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bitcoin as Supercomputer.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bitcoin_as_supercomputer_zh",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_en",
+      "target": "bittensor_subnet_architecture_zh"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_en",
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_en",
+      "target": "concept_dynamic_tao"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_en",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_zh",
+      "target": "concept_bittensor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_zh",
+      "target": "concept_dynamic_tao"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bittensor_subnet_architecture_zh",
+      "target": "concept_incentive_computing"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Area of Focus.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "area_of_focus_en",
+      "target": "area_of_focus_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Concept Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "concept_note_en",
+      "target": "concept_note_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/External Resource Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "external_resource_note_en",
+      "target": "external_resource_note_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Implementation Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "implementation_note_en",
+      "target": "implementation_note_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Literature Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "literature_note_en",
+      "target": "literature_note_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Person Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_note_en",
+      "target": "person_note_zh"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Project Note.en.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "project_note_en",
+      "target": "project_note_zh"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "03 - Resources/AI × Crypto/Bittensor Subnet Architecture.en.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "concept_bittensor",
+      "target": "concept_incentive_computing"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "03 - Resources/AI \u00d7 Crypto/About Bittensor 2025.en.md",
+      "source_file": "03 - Resources/AI × Crypto/About Bittensor 2025.en.md",
       "source_location": null,
       "weight": 0.8,
-      "source": "about_bittensor_2025_concept_alexnet",
-      "target": "about_bittensor_2025_concept_gradient_descent"
+      "source": "concept_alexnet",
+      "target": "concept_gradient_descent"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "102f638eeef97ac38c3dd430a6d360175bd35968"
+  "built_at_commit": "e58ec900a013ed851cde371d4c850a000afed2e2"
 }
