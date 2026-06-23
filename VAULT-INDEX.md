@@ -5,6 +5,12 @@ up: "[[VAULT-INDEX]]"
 
 # Vault Index
 
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="VAULT-INDEX.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="VAULT-INDEX.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+</p>
+
 > **What this is**: The first file Claude Code reads when navigating your vault. It's a routing table — short entries that point to where deeper knowledge lives. Keep it lean.
 >
 > **How it works**: Claude follows links from here to sub-indexes and MOCs (Maps of Content), then from those to individual notes. This layered approach is called *progressive disclosure* — see [[How Progressive Disclosure Works]] for details.

@@ -87,8 +87,8 @@ This vault is built on the [LA3D/agentic-vault](https://github.com/LA3D/agentic-
 
 Technical details:
 - [CLAUDE.md](CLAUDE.md) — Claude Code's project-level instructions
-- [SETUP.md](SETUP.md) — Initialization guide
-- [VAULT-INDEX.md](VAULT-INDEX.md) — Full index
+- [SETUP (English)](SETUP.md) / [SETUP 中文](SETUP.zh.md)
+- [VAULT-INDEX (English)](VAULT-INDEX.md) / [VAULT-INDEX 中文](VAULT-INDEX.zh.md)
 
 ---
 

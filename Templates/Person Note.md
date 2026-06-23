@@ -21,6 +21,12 @@ tags:
 
 # <% tp.file.title %>
 
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="Person%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="Person%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+</p>
+
 > One-sentence description of who this person is and what they work on.
 
 ---

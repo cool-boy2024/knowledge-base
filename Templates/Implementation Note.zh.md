@@ -26,8 +26,8 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Implementation%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="Implementation%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="Implementation%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="Implementation%20Note.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
 **Repo**: `<% tp.file.cursor(1) %>`
@@ -36,31 +36,31 @@ tags:
 
 ---
 
-## What It Is
+## 它是什么 (What It Is)
 
-[Brief description]
-
----
-
-## Architecture
-
-[Key components, design decisions]
+[简要描述]
 
 ---
 
-## Key Files
+## 架构 (Architecture)
+
+[关键组件、设计决策]
+
+---
+
+## 关键文件 (Key Files)
 
 - `src/core/` -
 - `experiments/` -
 
 ---
 
-## Results & Learnings
+## 结果与心得 (Results & Learnings)
 
-[What worked, what didn't]
+[什么有效、什么无效]
 
 ---
 
-## Future Work
+## 后续工作 (Future Work)
 
 - [ ]

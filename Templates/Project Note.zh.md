@@ -24,58 +24,58 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Project%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="Project%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="Project%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="Project%20Note.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
-> One-sentence summary: what this project achieves and why it matters.
+> 一句话摘要：这个项目要达成什么、为什么重要。
 
 **Status**: Active | Planning | On Hold | Complete
 **Effort**: On | Ongoing | Simmering | Sleeping | Archive
-**Area**: (set by `area:` field in frontmatter)
+**Area**: （通过 frontmatter 中的 `area:` 字段设置）
 
 ---
 
-## Goals
+## 目标 (Goals)
 
-What success looks like for this project:
+这个项目的"成功"是什么样的：
 
 - [ ] 
 
 ---
 
-## Current Focus
+## 当前焦点 (Current Focus)
 
-What's being worked on right now:
+现在正在做什么：
 
 - 
 
 ---
 
-## Next Steps
+## 下一步 (Next Steps)
 
 - [ ] 
 
 ---
 
-## Research Connections
+## 研究关联 (Research Connections)
 
-How this project connects to broader knowledge work:
-
-- 
-
----
-
-## Key Resources
-
-Repos, documents, external links:
+这个项目如何与更广的知识工作连接：
 
 - 
 
 ---
 
-## Log
+## 关键资源 (Key Resources)
 
-### <% tp.date.now("YYYY-MM-DD") %> — Project Created
+代码仓库、文档、外部链接：
 
-- Initial scope defined
+- 
+
+---
+
+## 日志 (Log)
+
+### <% tp.date.now("YYYY-MM-DD") %> — 项目创建
+
+- 初始范围已定义

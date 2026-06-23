@@ -1,5 +1,11 @@
 # Setup Guide
 
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="SETUP.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="SETUP.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+</p>
+
 Detailed setup instructions for the agentic vault, organized by dependency tier. See the [README](README.md) for a quick start.
 
 > **The onboarding skill (`/onboarding`) will check which tools are installed and guide you through what's missing.** You don't need to install everything upfront — start with Tier 0 and add capabilities as you need them.

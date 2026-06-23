@@ -35,38 +35,38 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Literature%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="Literature%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="Literature%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="Literature%20Note.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
-## Summary
+## 摘要 (Summary)
 
-[One paragraph in your own words]
+[用你自己的话写一段]
 
-## Key Contributions
+## 主要贡献 (Key Contributions)
 
 -
 
-## Methodology
+## 方法论 (Methodology)
 
-[How they did it]
+[他们如何做的]
 
-## Results
+## 结果 (Results)
 
-[What they found]
+[他们的发现]
 
-## Related Concepts
+## 相关概念 (Related Concepts)
 
-- [[Concept 1]] — how it connects
+- [[Concept 1]] — 它如何关联
 
-## Connections
+## 关联 (Connections)
 
-[Links to related vault notes — concepts, other literature, projects]
+[到 vault 内相关 note 的链接——概念、其他文献、项目]
 
-## Critical Analysis
+## 批判性分析 (Critical Analysis)
 
-[Strengths, limitations, questions]
+[优点、局限、问题]
 
-## Annotations
+## 标注 (Annotations)
 
-[Extract from Zotero or manual notes]
+[从 Zotero 提取或手写笔记]

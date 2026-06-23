@@ -26,6 +26,12 @@ tags:
 
 # <% tp.file.title %>
 
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="Concept%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="Concept%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+</p>
+
 > One-sentence claim-form summary
 
 **Status**: Emerging | Validated | Debated
