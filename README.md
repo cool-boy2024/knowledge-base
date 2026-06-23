@@ -1,2 +1,275 @@
-# knowledge-base
-self- learning
+# Agentic Vault
+
+A shareable vault template for building an **agentic memory system** with Claude Code and Obsidian. Ships with PARA structure, typed relationships, a knowledge graph pipeline, and 14+ skills that let Claude Code navigate, create, review, and maintain your knowledge base.
+
+## What This Is
+
+This vault implements a cognitive architecture where:
+- **You** provide direction, domain judgment, and raw input
+- **Claude Code** structures, cross-links, and maintains the knowledge
+- **The vault** is the persistent shared memory between sessions
+
+### Built on Claude Code's Architecture
+
+This template is specifically built to work with **Claude Code's agent, hook, skill, and memory architecture**. It relies on:
+
+- **CLAUDE.md + `.claude/rules/`** — Claude Code's instruction system, loaded at session start ([docs](https://code.claude.com/docs/en/memory))
+- **`.claude/skills/`** — on-demand capabilities that Claude loads when relevant ([docs](https://code.claude.com/docs/en/skills))
+- **Hooks** — lifecycle events that trigger validation and advisory checks ([docs](https://code.claude.com/docs/en/hooks))
+- **Auto memory** — Claude's own learning notes that persist across sessions
+- **Subagent memory** — persistent memory for skill subagents (like the encode Router)
+- **`--add-dir`** — cross-directory access for bridging vault and code repos
+
+These are Claude Code-specific features. The vault won't work the same way with other coding agents (Cursor, Windsurf, Copilot, etc.) because they have different memory, skill, and hook systems.
+
+That said, the **principles are transferable**: PARA organization, typed frontmatter relationships, progressive disclosure navigation, a knowledge graph built from structured metadata, discipline gates for cognitive load management — these patterns don't depend on Claude Code. If you're building an agentic memory system on a different platform, the architecture docs in `03 - Resources/Obsidian Reference/` describe the design patterns independent of the implementation. The reference docs in `03 - Resources/context/` document the specific Claude Code mechanisms this template builds on.
+
+### Why PARA?
+
+The vault uses a modified [PARA](https://fortelabs.com/blog/para/) system (Projects, Areas, Resources, Archive) because it gives Claude Code unambiguous routing rules for every piece of information. The `/encode` skill's Router maps note types to PARA categories automatically — a concept note goes in Resources, a project plan goes in Projects, a fleeting thought goes in Watching.
+
+On top of PARA, we layer Carl Pullein's Areas of Focus framework: your 6-8 foundational life/work areas become the *strategic layer* that everything else connects to. Every project should serve an area. This connection is enforced by the Router, the `/audit` skill, and SHACL validation in the knowledge graph.
+
+We also add a **Watching** folder (`05 - Watching/`) for items you're monitoring but haven't committed to — a staging area between "interesting" and "active."
+
+See [Why PARA and How We Modify It](03%20-%20Resources/Obsidian%20Reference/Why%20PARA%20and%20How%20We%20Modify%20It.md) for the full rationale, including how the Router enforces the structure.
+
+### Why Structured Hierarchy? (Research Basis)
+
+The vault does not just use PARA for organization. It imposes specific structural constraints on *how notes connect and how agents navigate them*. These constraints are grounded in recent formal and empirical research on memory architectures for language agents, and they are important enough to state explicitly:
+
+1. **Bounded branching** — every MOC section, sub-index subsection, and navigational folder keeps its direct-child count $\leq 12$. This is the Fano-inequality bound on routing reliability under a realistic mutual-information budget (~2 bits per routing decision). Above this bound, an agent navigating a node fails to pick the correct target often enough to matter — no amount of prompting fixes it.
+
+2. **Typed edges as interface operations** — edge fields (`concept:`, `extends:`, `supports:`, `criticizes:`, `source:`, `author:`) are not labels saying "these notes are related." They are *operation contracts*. `supports:` licenses evidence aggregation. `criticizes:` licenses contradiction detection. `source:` licenses grounding checks. `extends:` licenses inheritance of semantic context. Different edge types invoke different agent behavior. Aggressive typing produces a navigable knowledge graph; loose typing (everything goes under `related:`) collapses into flat similarity search.
+
+3. **Hierarchical retrieval over flat search** — progressive disclosure through VAULT-INDEX → MOC → concept → note is not a UI convenience. Flat semantic retrieval (cosine similarity over a single embedding space) has a mathematical ceiling on correctness as memory grows, and no amount of better embedding models can escape it. Typed hierarchical navigation is one of the only principled escape routes.
+
+**Supporting literature**:
+
+- **Barman et al. 2026, "The Price of Meaning"** (arXiv [2603.27116](https://arxiv.org/abs/2603.27116)) — proves a *no-escape theorem*: any memory system that retrieves by semantic similarity over a finite-dimensional embedding space cannot simultaneously eliminate forgetting and false recall as memory grows. Five architectures tested; all land on the same Pareto frontier.
+- **Barman et al. 2026, "The Geometry of Forgetting"** (arXiv [2604.06222](https://arxiv.org/abs/2604.06222)) — empirical companion showing production embedding models converge on effective dimensionality $d_{\text{eff}} \approx 16$ regardless of nominal size, which places them deep in the interference-vulnerable regime the theorem describes.
+- **Hu et al. 2026, "xMemory: Beyond RAG for Agent Memory"** (arXiv [2602.02007](https://arxiv.org/abs/2602.02007)) — Pareto-dominant empirical validation (48% fewer tokens, +21% F1 over flat RAG on LoCoMo) via hierarchical decomposition with bounded branching and active consolidation. Appendix B derives the Fano bound formally and sets the split threshold to 12.
+- **Janowicz 2015, "Ontology Engineering: A View from the Trenches"** (WOP 2015 keynote) — the 2015 independent precursor articulating a pattern-based architecture with bounded-interoperability hubs, derived from ontology engineering practice a decade before the formal theorem landed.
+- **Sumers et al. 2023, "Cognitive Architectures for Language Agents" (CoALA)** (arXiv [2309.02427](https://arxiv.org/abs/2309.02427)) — the cognitive architecture framework the vault uses to separate working, procedural, episodic, and semantic memory.
+
+**How the vault enforces this**:
+
+- The `/audit` skill's **Check F (Branching Factor)** automatically flags navigational nodes with more than 12 direct children as warnings, and more than 25 as errors — on every audit run. The check is derived from the Fano bound.
+- The `/curator` skill provides continuous consolidation (slow-cadence split/merge) analogous to xMemory's sparsity-semantics objective.
+- The `.claude/rules/typed-relationships.md` rule is loaded at session start and includes the "Edges as Interface Operations" framing so Claude Code treats edges as contracts from the first interaction.
+
+**For the full methodology**, read:
+
+- [Memory Architecture — Why Different Kinds of Memory](03%20-%20Resources/Obsidian%20Reference/Memory%20Architecture%20-%20Why%20Different%20Kinds%20of%20Memory.md) — CoALA + the Structural Constraints section with the three principles
+- [Bounded Branching — Why This Skill Checks the Fano Bound](03%20-%20Resources/Obsidian%20Reference/Bounded%20Branching%20-%20Why%20This%20Skill%20Checks%20the%20Fano%20Bound.md) — the formal Fano derivation, xMemory evidence, no-escape argument, and what to do when the check fires
+
+**Why the vault is self-enforcing**: if the structure drifts (a MOC section accumulates 40 entries, a folder grows to 150 files), the `/audit` skill flags it on the next run. The tooling catches violations of the principles the research argues for — so the vault stays consistent with its own thesis as it grows.
+
+## Prerequisites
+
+You need three things before starting. Install them in order:
+
+### 1. Homebrew (macOS package manager)
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 2. Core tools
+```bash
+brew install git node ripgrep gh
+brew install --cask obsidian
+```
+
+### 3. Claude Code
+
+Claude Code is Anthropic's agentic coding tool — it's the AI agent that operates inside this vault. You need an **Anthropic account with a paid plan** (the [Max plan](https://www.anthropic.com/pricing) at $100/mo includes Claude Code usage; alternatively, pay per-token via the [API console](https://console.anthropic.com)).
+
+```bash
+# Install Claude Code
+curl -fsSL https://claude.ai/install.sh | bash
+
+# Authenticate (follow the prompts)
+claude
+```
+
+See https://claude.com/product/claude-code for full install options including the VS Code extension, JetBrains plugin, desktop app, and web app. The CLI is recommended for this vault because skills work best in the terminal.
+
+> **See [SETUP.md](SETUP.md) for the full setup guide** — additional tiers of tools (knowledge graph pipeline, Quarto, Google Workspace integration) that Claude Code can help you install during onboarding.
+
+---
+
+## Quick Start
+
+> **This is a GitHub template repository.** Don't clone it directly — use it to create your own repo. This keeps your vault independent with its own git history, and you won't accidentally push to the template.
+
+### 1. Create your vault from the template
+
+**Option A — GitHub web UI:**
+Click the green **"Use this template"** button at the top of this repo → "Create a new repository." Choose your own account/org, name it whatever you like (e.g., `my-vault`, `research-vault`, `knowledge-base`), and set it to private.
+
+**Option B — GitHub CLI:**
+```bash
+gh repo create my-vault --template LA3D/agentic-vault --private --clone
+cd my-vault
+```
+
+### 2. Choose where to put it
+
+Obsidian supports multiple vaults — each vault is just a folder. A common convention is a dedicated directory:
+
+```bash
+# If you used Option A (web UI), clone your new repo:
+git clone git@github.com:YOUR-USERNAME/my-vault.git ~/Obsidian/my-vault
+
+# If you used Option B (CLI), it's already cloned. Move it if you like:
+mv my-vault ~/Obsidian/my-vault
+```
+
+> **Multiple vaults**: You can have separate vaults for different purposes — a research vault, a work vault, a personal vault. Each is an independent git repo. Obsidian lets you switch between them. Claude Code's `--add-dir` flag lets you reference one vault while working in another.
+
+### 3. Open in Obsidian
+
+Open Obsidian → "Open folder as vault" → select your vault directory. When prompted about community plugins, enable them (the vault uses Templater, Dataview, and Tasks).
+
+### 4. Run onboarding
+
+```bash
+cd ~/Obsidian/my-vault
+claude
+# Then in the Claude Code session:
+# /onboarding
+```
+
+The onboarding skill will:
+- Check your installed tools and suggest what to add (see [SETUP.md](SETUP.md))
+- Interview you (name, role, expertise, preferences)
+- Help you define your areas of focus
+- Ask for your knowledge graph namespace
+- Configure your dev environment path
+
+### 5. Start working
+
+Create your first project, capture a concept, or start a research session:
+- `/encode` — create any type of note
+- `/project-planning` — start a new project
+- `/research-session` — structured deep dive on a topic
+
+## Dependency Tiers
+
+The vault works at any tier. Higher tiers add capabilities.
+
+| Tier | What | Install |
+|------|------|---------|
+| **0 — Essential** | Git, Claude Code, Obsidian | See Prerequisites above |
+| **1 — Core CLI** | ripgrep, gh, jq, Quarto, Pandoc | `brew install ripgrep gh jq pandoc && brew install --cask quarto` |
+| **2 — Knowledge graph** | Python 3 + PyYAML, Apache Jena | `brew install jena && pip install pyyaml` |
+| **3 — Fast search** | Obsidian CLI | Built into Obsidian 1.12+. Settings > General > CLI |
+| **4 — Obsidian skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) + defuddle | `brew install node && npm install -g defuddle-cli` then install plugin (see [SETUP.md](SETUP.md)) |
+| **5 — Google Workspace** | GWS skills | Google account + API setup (see [Integration Ecosystem](03%20-%20Resources/Obsidian%20Reference/Integration%20Ecosystem.md)) |
+| **6 — Premium tools** | Readwise, Todoist, etc. | Optional paid subscriptions (free alternatives documented) |
+
+### Installing Tier 2 (Knowledge Graph)
+
+```bash
+# macOS (Homebrew)
+brew install jena
+pip install pyyaml
+
+# Configure your namespace (run once)
+scripts/kg/setup-namespace.sh https://yourdomain.com/vault
+# Or keep the default: https://example.com/vault
+
+# Build the graph
+scripts/kg/build-graph.sh --stats
+```
+
+### Installing Tier 3 (Obsidian CLI)
+
+1. Open Obsidian
+2. Settings > General > Command line interface > Enable
+3. Verify: `obsidian help`
+
+## Vault Structure
+
+```
+├── CLAUDE.md                    # Claude Code's orientation (reads this first)
+├── VAULT-INDEX.md               # Top-level routing table
+├── .claude/
+│   ├── rules/                   # 7 behavioral rules (loaded every session)
+│   └── skills/                  # 14+ on-demand capabilities
+├── Templates/                   # 7 note templates
+├── 01 - Projects/               # Time-bound efforts
+├── 02 - Areas of Focus/         # Your foundational life areas
+├── 03 - Resources/              # Knowledge by topic (MOCs)
+├── 04 - Archive/                # Completed/inactive items
+├── 05 - Watching/               # Monitored items
+├── Daily/                       # Daily notes
+└── scripts/kg/                  # Knowledge graph pipeline
+```
+
+## Key Concepts
+
+- **Four Memory Types**: The vault implements a cognitive architecture (CoALA, Sumers et al. 2023) with four distinct kinds of memory: working memory (CLAUDE.md + rules), procedural memory (skills), episodic memory (auto memory + daily notes), and semantic memory (typed vault notes + knowledge graph). They're separate because they have different access patterns, lifespans, and costs. See [Memory Architecture](03%20-%20Resources/Obsidian%20Reference/Memory%20Architecture%20-%20Why%20Different%20Kinds%20of%20Memory.md).
+
+- **Bounded Branching (Fano Bound)**: Every MOC section, sub-index subsection, and navigational folder keeps its direct-child count ≤12 — the information-theoretic limit on routing reliability derived from Fano's inequality (Hu et al. 2026 xMemory). The `/audit` skill's Check F flags violations automatically. See [Bounded Branching — Why This Skill Checks the Fano Bound](03%20-%20Resources/Obsidian%20Reference/Bounded%20Branching%20-%20Why%20This%20Skill%20Checks%20the%20Fano%20Bound.md).
+
+- **Progressive Disclosure**: Claude navigates in layers (VAULT-INDEX → MOC → note), not by reading everything. This is a structural requirement, not a UI preference — flat semantic retrieval has a formal ceiling on correctness (Barman et al. 2026 no-escape theorem) that typed hierarchical navigation escapes. See [How Progressive Disclosure Works](03%20-%20Resources/Obsidian%20Reference/How%20Progressive%20Disclosure%20Works.md).
+
+- **Typed Relationships as Interface Operations**: Frontmatter edge fields (`up:`, `concept:`, `source:`, `extends:`, `supports:`, `criticizes:`, `author:`) are not labels — they are *operation contracts* that define what agents do when traversing them. `supports:` licenses evidence aggregation; `criticizes:` licenses contradiction detection; `source:` licenses grounding checks. Different edge types invoke different agent behavior. See [Vault Vocabulary](03%20-%20Resources/Obsidian%20Reference/Vault%20Vocabulary.md) and the [typed-relationships rule](.claude/rules/typed-relationships.md).
+
+- **Two-Level Planning**: Vault-level plans are strategic (goals, research questions). Repo-level plans are tactical (implementation). Bridge them with `--add-dir` (see Cross-Repo Workflow below).
+
+- **Cognitive Load Management**: AI agents can intensify work faster than you realize ([Ranganathan & Ye, 2026](https://simonwillison.net/2026/Feb/9/ai-intensifies-work/)). The vault's session modes, discipline gates, and retro patterns impose sustainable rhythm on AI-assisted work. See [Managing Cognitive Load](03%20-%20Resources/Obsidian%20Reference/Managing%20Cognitive%20Load%20with%20AI%20Agents.md).
+
+- **The Encode Pipeline**: All note creation goes through `/encode`, which routes to the right location, applies the right template, wires into MOCs, and verifies before committing.
+
+## Core Skills
+
+| Skill | Purpose |
+|-------|---------|
+| `/onboarding` | First-time vault setup |
+| `/encode` | Create and wire any note type |
+| `/retrieve` | Load related notes into context |
+| `/review-note` | Quality review with specialist agents |
+| `/audit` | Vault-wide structural health check |
+| `/vault-kg` | SPARQL queries on the knowledge graph |
+| `/research-session` | Structured 5-mode research deep dive |
+| `/session-retro` | End-of-session reflection |
+| `/project-planning` | Project sizing and PLAN.md creation |
+
+## Building Your Own Skills
+
+Use Anthropic's built-in `/skill-creator` to build domain-specific skills for your work. The pattern: your domain skill handles domain decisions → delegates note creation to `/encode`. See the existing skills in `.claude/skills/` for examples.
+
+The vault includes reference documentation on how Claude Code's memory and skill systems work:
+- `03 - Resources/context/claude-code-memory-docs.md` — How CLAUDE.md, rules, and auto memory work together
+- `03 - Resources/context/claude-code-skills-docs.md` — How to create, configure, and distribute skills
+- `03 - Resources/context/claude-code-extensions-docs.md` — When to use CLAUDE.md vs rules vs skills vs hooks
+
+Claude reads these when modifying vault configuration or building new skills, so it understands the system it's extending.
+
+## Cross-Repo Workflow
+
+When working in a git repo, give Claude access to your vault:
+
+```bash
+# One-time alias (add to .bashrc/.zshrc)
+# The env var is required — without it, --add-dir gives file access
+# but does NOT load the vault's CLAUDE.md or rules
+alias cc='CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1 claude --add-dir ~/Obsidian/my-vault'
+
+# Then in any git repo:
+cc
+```
+
+**Important**: `--add-dir` alone only gives Claude file access to the vault. To also load the vault's CLAUDE.md and `.claude/rules/`, you must set `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1`. The alias above handles this.
+
+This lets Claude reference vault knowledge (concept notes, literature, project plans) while implementing code.
+
+## Integration Options
+
+The vault is a central processing hub. External tools feed information in. See [Integration Ecosystem](03%20-%20Resources/Obsidian%20Reference/Integration%20Ecosystem.md) for the full menu of free and paid options at each integration point.
+
+## License
+
+MIT

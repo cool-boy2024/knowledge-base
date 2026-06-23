@@ -1,0 +1,771 @@
+Transcript
+Search transcript
+0:04
+4 seconds
+Um so I I studied artificial intelligence and mathematics in Canada.
+0:09
+9 seconds
+I did um a degree there. Uh I didn't do my my masters. I just did a bachelor. Um and that was way back in 2015.
+0:18
+18 seconds
+Um AI was a lot different in 2015 than it is today. I'm going to talk a little
+0:24
+24 seconds
+bit about the journey uh from that year uh to where we are now. My journey is I graduated from university uh in
+0:32
+32 seconds
+mathematics computer science. I went on to work for DARPA which is a a military contractor in the United States. Um and
+0:40
+40 seconds
+I was building neuromorphic chips for a while. Um I at at that when I was doing that I got fascinated with Bitcoin back in 2016.
+0:49
+49 seconds
+uh and then I started building bit tensor almost 10 years ago. Uh in that time I went went to work for Google. I
+0:57
+57 seconds
+was working for Google brain which was at the time the premier uh AI research lab in the world. Um and then I quit
+1:05
+1 minute, 5 seconds
+that job uh and started this network uh it's a digital currency network um in
+1:11
+1 minute, 11 seconds
+2021. Uh I live in Peru. Uh and uh and this is really my life. So, I'm I'm it's a pleasure to come and speak with you
+1:18
+1 minute, 18 seconds
+guys today and talk about uh what Bit Tensor is, but I'm not here to sell you guys a digital currency. I'm not I don't
+1:27
+1 minute, 27 seconds
+let's not talk we're not going to be talking about prices and bullishness.
+1:30
+1 minute, 30 seconds
+I'm I want to talk to you guys about uh the fundamental ideas um of you know why this intersection of
+1:40
+1 minute, 40 seconds
+artificial intelligence and digital currency exists uh and why you should care about it whether or not it's it's
+1:48
+1 minute, 48 seconds
+Bit Tensor or any other project um if they're doing it properly. It's interesting.
+1:54
+1 minute, 54 seconds
+So um let's go let's go back.
+2:02
+2 minutes, 2 seconds
+Okay. Yeah. Here. Okay. Uh so this is in this is in 2010 when um I was just graduating from high school. Um uh we
+2:11
+2 minutes, 11 seconds
+were still uh even in 2014 and 2015 uh we were still working on emnest. Who knows what emnest is?
+2:20
+2 minutes, 20 seconds
+Do you guys know? You don't even know what he knows what emnest is. Uh emnest is a is a famous benchmark. Jeffrey
+2:26
+2 minutes, 26 seconds
+Hinton uh and Yan Lakun used it um to create the very first neural networks.
+2:32
+2 minutes, 32 seconds
+Um but back in 2010, this was before the deep learning the deep learning revolution. AlexNet is not until 2012.
+2:41
+2 minutes, 41 seconds
+And in 20 in 2010 the way in which we were doing things like detecting handwritten digits um whether or not
+2:48
+2 minutes, 48 seconds
+this is a you know a one or a two or a three or a four uh it was done uh this is an example of a of a paper from 2010
+2:57
+2 minutes, 57 seconds
+curved straight line analysis. So they would try to you know take uh the try to find lines and curves and then they
+3:05
+3 minutes, 5 seconds
+would they would write a a mathematical function that could map the the number of curved lines the length of the curve
+3:12
+3 minutes, 12 seconds
+curved lines to whether or not it was a one or two or three or five or six and they got 97% which is actually really
+3:19
+3 minutes, 19 seconds
+shitty. So if you take a standard you know like two-layer neural network right now you can get like almost 100% if you know what you're doing. So the um the
+3:27
+3 minutes, 27 seconds
+the the field has come a long way and um that it wasn't in 2010 that that AI became popular. If we done a if we' done
+3:35
+3 minutes, 35 seconds
+a a a lecture on AI in 2010, none of you would come. It was like boring. It SVMs,
+3:43
+3 minutes, 43 seconds
+no one knew it was happening. Uh it never worked. Um until this page, Ale um until Alex Net in 2012. And the the
+3:52
+3 minutes, 52 seconds
+innovation was that instead of uh pre- encoding the
+4:00
+4 minutes
+representations, we let the model learn what to look for inside of the image.
+4:08
+4 minutes, 8 seconds
+Um so we built a neural network. We defined an objective function the error rate and then we used uh we adapted the
+4:17
+4 minutes, 17 seconds
+weights using gradient descent and had the neural network learn which representations were valuable for detecting a
+4:26
+4 minutes, 26 seconds
+handwritten digit. Now this was this was a massive moment in in in the development of artificial intelligence.
+4:34
+4 minutes, 34 seconds
+I was at university. or remember it. Um because we crushed emnest uh and then this was really the the field has n been
+4:43
+4 minutes, 43 seconds
+non-stop since since then. Um and the reason why it's been non-stop since since then is because we unc we
+4:50
+4 minutes, 50 seconds
+discovered um a structure a different type of structure for approaching these difficult problems.
+4:57
+4 minutes, 57 seconds
+Instead of encoding the solutions, thinking really intelligently about um you know what a handwritten digit looks like, we were going to learn it in a
+5:05
+5 minutes, 5 seconds
+process of adaptation. You take the weights of your neural network.
+5:10
+5 minutes, 10 seconds
+You output the loss by uh you take data, you put it through trials, you get a loss and then you adapt the weights with
+5:16
+5 minutes, 16 seconds
+a gradient. So this is like a loop, right? And you just let it run and over time the loss decreases and your neural networks.
+5:26
+5 minutes, 26 seconds
+Now this this this pattern um shows up all over the place. It also shows up in
+5:33
+5 minutes, 33 seconds
+reinforcement learning. Um all the rage right now is using RL for for getting better. Like the latest GPT5 was trained
+5:42
+5 minutes, 42 seconds
+um with RL fine-tuning as its last stage. Uh what made GPT possible was uh
+5:49
+5 minutes, 49 seconds
+PO policy proximity approxim proximity op optimization um rv all of these
+5:56
+5 minutes, 56 seconds
+algorithms um reinforcement learning is a type of machine learning that that is very similar in the structure there's an
+6:03
+6 minutes, 3 seconds
+environment an agent acts in the environment and then a reward updates the parameters of the agent right again
+6:11
+6 minutes, 11 seconds
+notice the similarity uh there's a feedback loop Right? And we can run this feedback loop a billion times. And how
+6:19
+6 minutes, 19 seconds
+this is different than what way we were thinking about the problem in 2010 and before in fact before 2010 there was such a long period of no advancement in
+6:28
+6 minutes, 28 seconds
+artificial intelligence that they called it the AI winter.
+6:32
+6 minutes, 32 seconds
+Now we're in it's it's hot outside right now. Um uh genetic algorithms. You guys are probably studying these. It's very
+6:40
+6 minutes, 40 seconds
+similar structure. There's a genetic code. um we uh evaluated the gets an objective and then we select the population
+6:49
+6 minutes, 49 seconds
+and slowly but surely this gets better and better.
+6:53
+6 minutes, 53 seconds
+Very similar concept. Um we can see this in in nature as well. So um uh there's a
+7:01
+7 minutes, 1 second
+very interesting experiment you can do with a organism called a slime mold. You guys know what a slime mold is? You you
+7:08
+7 minutes, 8 seconds
+probably eat it in China. Um the Yeah.
+7:14
+7 minutes, 14 seconds
+But but what's not the taste is not the interesting thing. Um uh slime molds um what you can do is you can put them
+7:22
+7 minutes, 22 seconds
+inside of a maze and put oats on the other side and the slime mold will follow the gradient of smell. It
+7:31
+7 minutes, 31 seconds
+basically it can it's not exactly smell but it can smell the the protein in the in the oats and it will grow and
+7:40
+7 minutes, 40 seconds
+contract and grow and contract until it finds a way through the maze. It's very like um simple. Let me see if I can
+7:48
+7 minutes, 48 seconds
+actually uh hold on. I can get a video up of this in a second. It's very cool. We could look, maybe we'll do it at the end, but
+7:56
+7 minutes, 56 seconds
+there's actually a video you can watch of a slime mold um beating a maze. Um and it's exactly the same structure. So
+8:03
+8 minutes, 3 seconds
+the the the tendrils expand um the ones that are closer closer to the nutrient, they get selected. Uh and then the slime
+8:11
+8 minutes, 11 seconds
+mold uh follows this proc process of uh adaptation to a reward. um that is very very powerful and it's like the the the
+8:20
+8 minutes, 20 seconds
+simplest form of of intelligence in biological systems that we study. Um going to go even deeper for you guys. Uh
+8:29
+8 minutes, 29 seconds
+matter itself. Everything in nature also follows very similar structure, similar
+8:36
+8 minutes, 36 seconds
+patterns from from uh the way in which a tree grows to a leaf to uh even lightning bolts um behave this way and
+8:44
+8 minutes, 44 seconds
+and river deltas where you have um structure that gets energy and adapts itself to maintain its energy. One way
+8:53
+8 minutes, 53 seconds
+to think about us as as biological organisms is the same thing. We're basically energy adapting or structures
+9:01
+9 minutes, 1 second
+that try to find um energy so we can sustain our structure and if we can't uh we die. So this goes all the way down to
+9:09
+9 minutes, 9 seconds
+the the absolute core of of structure inside of the world and that's really u
+9:16
+9 minutes, 16 seconds
+what we're tapping into with the modern machine intelligence.
+9:25
+9 minutes, 25 seconds
+There's a pattern. All these things are one thing. State, objective, feedback, adaptation, a loop, um, and things move quickly.
+9:35
+9 minutes, 35 seconds
+Okay. But why am I telling you all this stuff? Because we're not talking about um, just AI. Uh, you know, I came here
+9:43
+9 minutes, 43 seconds
+under the premise of I think it's it's a AI plus crypto is the topic, right? So,
+9:50
+9 minutes, 50 seconds
+um, that why are we talking about this at all? So when I was studying neuromorphic chips,
+9:57
+9 minutes, 57 seconds
+I was studying this behavior um uh at the sort of with the American military.
+10:05
+10 minutes, 5 seconds
+Um at the time I was learning about Bitcoin.
+10:09
+10 minutes, 9 seconds
+Um and I came to the realization um that Bitcoin was also an example of
+10:17
+10 minutes, 17 seconds
+this phenomenon not as a currency but as a network that
+10:24
+10 minutes, 24 seconds
+Bitcoin is a self-adaptive computer a network that produces hashes
+10:32
+10 minutes, 32 seconds
+and it actually does it really really really powerful. It works like this. So in Bitcoin, the miners produce hashes.
+10:40
+10 minutes, 40 seconds
+The network rewards them in BTC, checks the hashes and see how how fast you produce those hashes and it rewards you
+10:48
+10 minutes, 48 seconds
+in Bitcoin. That's what that's how Bitcoin works. Uh and they use this uh structure, this computational structure
+10:56
+10 minutes, 56 seconds
+to secure the network. I won't get into it later, but basically, Bitcoin is constructed um uh as a self- adapting
+11:04
+11 minutes, 4 seconds
+system that produces hashes according to a very similar structure that we talked about on the previous slides. Now, um why is this interesting? It's
+11:11
+11 minutes, 11 seconds
+interesting because Bitcoin is the largest supercomputer in the world.
+11:17
+11 minutes, 17 seconds
+Let me repeat that. It is the largest supercomputer in the world. It is actually um it is actually a thousand times
+11:25
+11 minutes, 25 seconds
+larger than the computing power of all uh the six largest compute providers in the United States. A thousand times
+11:33
+11 minutes, 33 seconds
+larger. It is so big it produces 10 to the 21. It's that that number is so large in terms of hashes that it probably wouldn't even fit on the
+11:41
+11 minutes, 41 seconds
+screen. um uh to give you another idea of how large it is. Uh it produ it consumes 23,000 u megawws of continuous
+11:50
+11 minutes, 50 seconds
+draw. It's the same electrical draw as Thailand. It consumes as much electricity as a country of with 100 or so million people in it. Just a network.
+12:01
+12 minutes, 1 second
+It is so large that I mean it has to be so large because if it's not large enough it it can't be resistant to governance. But that's a different conversation.
+12:11
+12 minutes, 11 seconds
+It basically is perfectly efficient. As the price of Bitcoin goes up, the miners produce more hashes. Um and and this is
+12:19
+12 minutes, 19 seconds
+why it's it's um you know very interesting to think about as a computer. I give you another an analogy.
+12:25
+12 minutes, 25 seconds
+Um take the the six largest comput providers in the United States. Um for about a trillion dollars, uh they
+12:32
+12 minutes, 32 seconds
+produce about a thousand exoflops of compute across all of them. Bitcoin for somewhere between 50 to300 billion
+12:40
+12 minutes, 40 seconds
+dollars, I can talk about how I estimated that later, produces 450,000 exoflops of compute. 450,000 exoflops of compute.
+12:50
+12 minutes, 50 seconds
+Just to give you guys a matter of perspective, that's somewhere between 700 and 9,000 times more efficient at
+12:58
+12 minutes, 58 seconds
+producing hashes than um standardized companies, right?
+13:06
+13 minutes, 6 seconds
+thinking about Bitcoin as a self-adapting computer.
+13:13
+13 minutes, 13 seconds
+the the the reason why that's the correct framework is because um what we're seeing is the same type of
+13:21
+13 minutes, 21 seconds
+exponential efficiency and scale and improvement that we saw with the advent of things
+13:29
+13 minutes, 29 seconds
+like AlexNet in artificial intelligence, but we're seeing it again um in a network for computation. And that's
+13:37
+13 minutes, 37 seconds
+because Bitcoin is really something like a uh more it's kind of like a program.
+13:44
+13 minutes, 44 seconds
+It's kind of like a machine learning algorithm or an optimization algorithm genetic genetic or or neural network or
+13:52
+13 minutes, 52 seconds
+RL reinforcement learning. It's very similar in structure to these things. Um but it's applied to creating this thing that's called a dig it's a digital
+14:00
+14 minutes
+commodity. Now, what uh why is it so why is it so powerful? Why does this work so
+14:07
+14 minutes, 7 seconds
+well? So, um Bitcoin is the first ever example of this in in in nature. We've never really produced anything like
+14:15
+14 minutes, 15 seconds
+this. There's no network that can compete in scale to Bitcoin. But let's talk about some of the qualities that this type of optimization has.
+14:25
+14 minutes, 25 seconds
+This type of qualities that Bitcoin has.
+14:28
+14 minutes, 28 seconds
+Um, one of the nice qualities is that uh, Bitcoin is borderless.
+14:33
+14 minutes, 33 seconds
+Doesn't matter where you are, you can mine Bitcoin with your laptop.
+14:39
+14 minutes, 39 seconds
+Allows you to get access to resources in every country on Earth. That's pretty cool.
+14:45
+14 minutes, 45 seconds
+Um, it's continuous. It doesn't have um, a start or a stop time and doesn't close on weekends. Um it is uh uh it's not
+14:55
+14 minutes, 55 seconds
+like um you know seminars or or or seasons in in a school or the or the US stock market that closes on weekends or
+15:03
+15 minutes, 3 seconds
+there's a league and there's a season for the league. It's it's 24/7. It's all the time. It's very very competitive and it's always optimizing itself.
+15:12
+15 minutes, 12 seconds
+It's fully autonomous.
+15:15
+15 minutes, 15 seconds
+Um it's it's permissionless means you don't have to ask anybody to participate in the system. uh it simply draws as much electricity from the grid as it can.
+15:24
+15 minutes, 24 seconds
+Uh a normal corporation can't achieve that that form of uh efficiency uh because it needs to have an HR
+15:32
+15 minutes, 32 seconds
+department. Um it needs to needs to see who you are. There's going to be bias.
+15:38
+15 minutes, 38 seconds
+Where did you go to school? A Bitcoin doesn't care that you guys went to the best university in the world. Sorry.
+15:43
+15 minutes, 43 seconds
+Bitcoin does not care. It just cares if you can produce hashes. And that's what makes it so efficient. And then the final point is that it's it's a pure
+15:50
+15 minutes, 50 seconds
+market for something. Um, if you can produce more hashes, you get paid for those hashes and it allows you
+15:57
+15 minutes, 57 seconds
+to allocate a lot of a lot of uh computing power to the network uh and know exactly what your return is going to be. And so Bitcoin is a really um
+16:06
+16 minutes, 6 seconds
+it's a really effective market in the sense that it can produce these hashes um with efficiency. And I just want to say that it's this new type of of
+16:15
+16 minutes, 15 seconds
+computing which I'm going to label incentive computer.
+16:18
+16 minutes, 18 seconds
+Bitcoin is just like how machine learning is a type of computing and reinforcement learning is a type of is a type of learning and and and genetic programming is a type of computing.
+16:29
+16 minutes, 29 seconds
+Incentive computing is also a type of computing that we should study and we should be we should think about how can we do it properly?
+16:38
+16 minutes, 38 seconds
+How can we do it generally? Actually, because we don't want to produce hashes. We want to produce anything.
+16:46
+16 minutes, 46 seconds
+Hashes in Bitcoin are are useless. But what if we could take the same premise and we could apply it to storing files,
+16:54
+16 minutes, 54 seconds
+generating compute, or doing machine learning itself? What if we could apply the premise, the same premise that
+17:02
+17 minutes, 2 seconds
+created the largest supercomputer in the world? What if we could apply that same premise to hey training machine learning models for instance
+17:10
+17 minutes, 10 seconds
+or really anything actually. So what's the general incentive computer? We did this. We we basically asked that question and we broke apart the way in
+17:19
+17 minutes, 19 seconds
+which Bitcoin works. The miners produce hashes. The validators check the hashes.
+17:23
+17 minutes, 23 seconds
+The network emits to miners. U we built the general version of this. Um miners do any work. validators check any work
+17:31
+17 minutes, 31 seconds
+and the network emits mints a digital currency um to those miners. We called that thing called bit we called it bit
+17:37
+17 minutes, 37 seconds
+tensor and and fundamentally it's just a uh it's a platform uh where you can create these this new type of uh machine
+17:45
+17 minutes, 45 seconds
+learning it's basically a new it's like a torch it's like um a language for creating uh incentive computing
+17:55
+17 minutes, 55 seconds
+a it's a lang it's a language so how does this works a little bit like this probably doesn't
+18:03
+18 minutes, 3 seconds
+mean anything to you guys um but But the idea is very simple, very similar to to Bitcoin. Um, you register a minor that
+18:12
+18 minutes, 12 seconds
+that's uh going to be associated with a cryptographic key. Um, and then you do some work.
+18:20
+18 minutes, 20 seconds
+You do some work which is consumed by the validators, the people that check your work. Um,
+18:28
+18 minutes, 28 seconds
+they check your work according to some rules that are predefined.
+18:34
+18 minutes, 34 seconds
+Um and then the results are given to the chain and the chain reaches agreement on
+18:40
+18 minutes, 40 seconds
+which of the miners have done well. So like this is a little bit what that looks like when we um the top here.
+18:50
+18 minutes, 50 seconds
+These are all minor. Each one of the green dots is a minor.
+18:55
+18 minutes, 55 seconds
+Um and they're providing something of value to the network. Maybe it's uh storage or compute for instance.
+19:03
+19 minutes, 3 seconds
+Um the validators are checking how much they're bringing to the network.
+19:08
+19 minutes, 8 seconds
+Uh and this is their ranking. This is how well they perform. So every every mechanism on the network of Bit Tensor
+19:16
+19 minutes, 16 seconds
+has some sort of curve. Hey, these guys are doing better than these guys. It ranks them and then pays them out based on where they are on the curve. And uh
+19:24
+19 minutes, 24 seconds
+there's a video here uh but I can't show it right now. I should have taken a video before to show how over time we
+19:31
+19 minutes, 31 seconds
+basically cycle and we churn out the bad miners and replace them with new new miners. It's an adaptive system. It's a
+19:39
+19 minutes, 39 seconds
+genetic algorithm or something like a reinforcement learning algorithm. Maybe you even think of it as a machine learning gradient descent problem.
+19:46
+19 minutes, 46 seconds
+There's a lot of different ways or similarities to think about it as an optimization problem, but over top of any uh general productivity on behalf of
+19:55
+19 minutes, 55 seconds
+miners. So let's take that apart. What's an example? Um so this is a this is a company. It's also a network on Bit
+20:04
+20 minutes, 4 seconds
+Tensor and their focus is to mine coding intelligence Bitcoin for being good at
+20:12
+20 minutes, 12 seconds
+programming um uh with cursor basically right so intelligence models. They're looking for the um intro the people to
+20:22
+20 minutes, 22 seconds
+mine improvement upon benchmarks that are valuable to agents that code. So
+20:29
+20 minutes, 29 seconds
+basically it looks like this. The miners are agents. They produce agents. Those agents are evaluated on a benchmark and
+20:38
+20 minutes, 38 seconds
+then the reward is is paid to them in some token digital token.
+20:44
+20 minutes, 44 seconds
+Um this is the performance of of that mechanism that optimization problem uh over a 3-month period. This is the performance on SWEBench.
+20:55
+20 minutes, 55 seconds
+Uh this is the number of agents that are currently being evaluated.
+21:01
+21 minutes, 1 second
+And here this is the performance of the agent the best agent on the
+21:08
+21 minutes, 8 seconds
+network over this three or so month period of time. As you can see,
+21:15
+21 minutes, 15 seconds
+the mechanism didn't define the solution to the agent. They simply encoded the
+21:23
+21 minutes, 23 seconds
+incentives under which the agents could be evolved.
+21:28
+21 minutes, 28 seconds
+Let me say that again. We did not make a machine learning agent. We simply defined the incentives under which those
+21:36
+21 minutes, 36 seconds
+AI agents could be evolved. And in a short period of time, we beat the best in the world. So this is the agents that came out of this network are better than
+21:44
+21 minutes, 44 seconds
+claude open AI any model that is closed source or open source uh at doing coding challenges. Who did it? We don't know.
+21:51
+21 minutes, 51 seconds
+Somebody in the rand some random person in the world wrote a 7,000line piece of code um 7,000line a AI agent um that was
+22:00
+22 minutes
+capable of embedding files, grepping files um applying edits using git to uh improve the performance on on Swebench.
+22:10
+22 minutes, 10 seconds
+it really clicked. And this is like um this for me is very similar to what it felt like in 2012 when we were able to
+22:19
+22 minutes, 19 seconds
+get neural networks to finally work and we saw their performance, their ability to crush benchmarks in a way that had
+22:27
+22 minutes, 27 seconds
+not been done before. This is an AI lab without any engineers. This is an AI lab that doesn't define any specific pro um
+22:36
+22 minutes, 36 seconds
+doesn't define the way in which problems are solved but in fact is in solely defines the incentive. Um so this is a
+22:43
+22 minutes, 43 seconds
+this is an ongoing project by the way if you're interested if this is something that you'd be interested in contributing to. You don't need to ask me any
+22:50
+22 minutes, 50 seconds
+questions. Uh it's an open network. It's a permissionless network. We have some some uh uh ex miners in the in the
+22:57
+22 minutes, 57 seconds
+crowd. Hey Nick. Um uh and the the reward is quite substantial because what we do as an AI company is instead of
+23:05
+23 minutes, 5 seconds
+raising all this venture capital and then hiring HR departments and doing marketing, we just put all of the capital, all of the money straight
+23:14
+23 minutes, 14 seconds
+through the network to the people that are actually doing the optimization, the people that are actually solving the problem. So um if you're a top miner on
+23:21
+23 minutes, 21 seconds
+this subnet, for one day you can make $60,000, which is quite significant amount of money. uh and you don't need to ask anyone anyone um for permission.
+23:32
+23 minutes, 32 seconds
+Um let's go to a different type of problem that is very interesting uh and relevant to uh open source artificial intelligence.
+23:42
+23 minutes, 42 seconds
+For us to be able to build neural networks that really matter on the grand scale, we need to be able to train
+23:51
+23 minutes, 51 seconds
+massive machine learning models. And without tens of thousands of GPUs at our disposal, it's basically impossible to
+23:59
+23 minutes, 59 seconds
+compete with closed source labs. But if we can combine resources from you and me
+24:06
+24 minutes, 6 seconds
+and Nick, if we can all combine resources, then we can potentially train a machine learning model that is as big
+24:14
+24 minutes, 14 seconds
+and we don't all have to carry the same economic load.
+24:18
+24 minutes, 18 seconds
+What if we could build a market for the gradients that are required to train that type of model? What if we could
+24:27
+24 minutes, 27 seconds
+structure an optimization problem for an optimization problem which is the production of gradients relevant for
+24:35
+24 minutes, 35 seconds
+training a machine learning model. So something like this. What if we could have a market where we say hey produce me gradients. We're going to check whether or not the gradients reduce the
+24:44
+24 minutes, 44 seconds
+loss uh and then we'll pay you out. We did that. Um and this is the the result.
+24:50
+24 minutes, 50 seconds
+This is the current training run, the current largest. We're training a 70 billion parameter model across the internet. Um, it's permissionless.
+24:58
+24 minutes, 58 seconds
+Anybody can contribute anywhere in the world. There's no whitelists. We don't ask questions. Uh, and we pay you for being able to produce a gradient that
+25:06
+25 minutes, 6 seconds
+reduces the loss faster than somebody else. This is Bitcoin mining to training machine learning models. This is the largest. This is the most This is a fully decentralized model. It's across
+25:15
+25 minutes, 15 seconds
+the internet. It's incentivized. It's permissionless. It's never been done before. And we did this on Bit Tensor.
+25:20
+25 minutes, 20 seconds
+And this model is going to be done in a couple weeks. I think it's actually quite um interesting. This is something I care deeply about.
+25:28
+25 minutes, 28 seconds
+Um we also work on more standard or well-known problems uh in the DPIN
+25:34
+25 minutes, 34 seconds
+space. Um for instance like uh GPUs the the whether or not you you can mine the
+25:41
+25 minutes, 41 seconds
+network by contributing GPUs. Um we check to see if the GPUs are legitimate and we pay you out. Now some this is
+25:49
+25 minutes, 49 seconds
+kind of a simpler problem. It's not as sci-fi and and not necessarily as AI, but it's also um very cool what we can
+25:56
+25 minutes, 56 seconds
+do. Uh we can take this mining structure and apply it to a digital commodity or this is actually a physical commodity
+26:04
+26 minutes, 4 seconds
+and have the miners all around the globe, some Chinese miners for instance, contribute GPU resources and they can be
+26:12
+26 minutes, 12 seconds
+rented um off the network because all we do is verify if the GPU is legitimate.
+26:17
+26 minutes, 17 seconds
+These prices are the cheapest in the world. Because we built this this network in a permissionless, borderless
+26:24
+26 minutes, 24 seconds
+and incentivized way, we get the cheapest rate on on GPUs anywhere.
+26:32
+26 minutes, 32 seconds
+Let's talk about some of our other successes. Um this is a uh a working product built on top of um our network.
+26:41
+26 minutes, 41 seconds
+Same a similar idea. Um well, it's the same idea. Uh the miners need to provide inferences.
+26:49
+26 minutes, 49 seconds
+So they need to provide an endpoint that can accept queries and then uh we will check the speed how quickly you can run
+26:58
+26 minutes, 58 seconds
+that software that does the inference and we will pay you your reward.
+27:04
+27 minutes, 4 seconds
+Uh in short order we we are the largest provider of open source models in the world on open router.
+27:10
+27 minutes, 10 seconds
+So we we provide uh this network that's run via contributions from people all around the globe globe uh runs more
+27:18
+27 minutes, 18 seconds
+inferences than any other open source provider in the world. Um at one point it was providing more inferences for deepseek than deepseek itself.
+27:30
+27 minutes, 30 seconds
+I can go on and on and I'll go I'll give you one more. Um for those that are interested in robotics, not only can we optimize these kind of abstract digital
+27:39
+27 minutes, 39 seconds
+things like gradients um uh and compute power.
+27:47
+27 minutes, 47 seconds
+This this kind of incentive computing domain is very broad because because we're dealing with real real incentive
+27:56
+27 minutes, 56 seconds
+not not like um reward from a machine learning perspective where it's just kind of a number on a computer. We're talking about real money, real real
+28:04
+28 minutes, 4 seconds
+physical money, maybe humanity's most abstracted form of energy. And because of that, we can actually optimize things
+28:11
+28 minutes, 11 seconds
+that are both physical, digital, and everything in between from chips to GPUs to gradients to software um and
+28:21
+28 minutes, 21 seconds
+also robotics. So, so for instance, um um we are optimizing uh we're having miners contribute machine learning
+28:29
+28 minutes, 29 seconds
+models. Those machine learning models um are checked for performance and then we give them reward and we get things like for instance this this is um is this
+28:37
+28 minutes, 37 seconds
+showing this is a a drone that is running a machine learning model in
+28:44
+28 minutes, 44 seconds
+inside of it in simulation where this machine learning model is been provided by by people to the network and measured
+28:52
+28 minutes, 52 seconds
+in the performance on a set of um environments. So basically it's like uh
+28:59
+28 minutes, 59 seconds
+this is this is the this is the trajectory of that machine learning model and we we uh reward the
+29:06
+29 minutes, 6 seconds
+miners for producing um um internal architectures that can sorry machine learning models that can that can run
+29:14
+29 minutes, 14 seconds
+these courses very fast. So we're also optimizing things in the physical world but the list is long really. Um uh this
+29:22
+29 minutes, 22 seconds
+is uh this is nine other projects on Bit Tensor in the top left corner. You can you can mine Bit Tensor by trading in
+29:29
+29 minutes, 29 seconds
+the stock market. Um and performing better than others and producing signals for trading in the stock market. Um uh
+29:38
+29 minutes, 38 seconds
+you can mine bit tensor by betting on sports. Um you can mine bit tensor by
+29:45
+29 minutes, 45 seconds
+training vision langu vision models like VLMs that that can detect detect moving
+29:51
+29 minutes, 51 seconds
+objects very valuable for for sports. Um in the top right corner we have uh
+29:58
+29 minutes, 58 seconds
+AutoML. So so we have some of the best automatic machine learning architectures in the world. So, so basically scripts that can automatically train machine
+30:07
+30 minutes, 7 seconds
+learning models and the list goes on um and on um uh from drug discovery, weather prediction, Bitcoin prediction,
+30:16
+30 minutes, 16 seconds
+quantum computing, uh Bitcoin mining, 3D image generation, data understanding, inference speed and commodities trading.
+30:27
+30 minutes, 27 seconds
+We applied we applied this idea of monetary optimization to ourself. uh just last year we we took the network
+30:35
+30 minutes, 35 seconds
+and we said hey if you can build a mechanism and that mechanism is itself valuable to a market of other mechanisms
+30:44
+30 minutes, 44 seconds
+we will reward you with liquidity so we said hey let's take this even farther let's apply uh reinforcement learning u
+30:52
+30 minutes, 52 seconds
+to itself this is this is uh like 30 of the top mechanisms on bit tensor there's actually 128 of them um so we we built a
+31:01
+31 minutes, 1 second
+mechanism called dynamic Tao um where we basically provide liquidity to mechanisms that are running on Bit
+31:09
+31 minutes, 9 seconds
+Tensor based on their ability to main high to maintain high prices and to consume or sequester TOAO in the
+31:15
+31 minutes, 15 seconds
+ecosystem. All of this is is basically us applying ourselves to ourselves. Um
+31:23
+31 minutes, 23 seconds
+um now but why uh we're we're we're moving into an era uh probably for the first time in history
+31:30
+31 minutes, 30 seconds
+that the some of the largest companies to ever be created uh only have one 2 3 4,000 employees. OpenAI hundred billion
+31:40
+31 minutes, 40 seconds
+dollar company possibly the next mega unicorn only have 3,000 employees. It's controlled basically by one person. Um
+31:49
+31 minutes, 49 seconds
+it's a closed source lab. you'll probably never work there and for the rest of your life you'll have a subscription. All the power for a very
+31:57
+31 minutes, 57 seconds
+small group of people um that they make decisions and and and ultimately you don't even know you don't even know what's happening. You don't know where
+32:06
+32 minutes, 6 seconds
+your data is going. There's some shady there. You're not participating in it. You don't own any open AI because
+32:13
+32 minutes, 13 seconds
+it's a closed round. um this kind of top-down world where artificial intelligence gets gets pulled into a
+32:22
+32 minutes, 22 seconds
+small set of really small companies and they control all of the compute and all of the data and there's nothing that you
+32:29
+32 minutes, 29 seconds
+can access. That's where everyone wants to us to go. But as a consequence of us approaching these problems with this new
+32:38
+32 minutes, 38 seconds
+and very powerful technology of a monetary optimization, we also are distributing ownership, making the games transparent. Everyone can participate.
+32:50
+32 minutes, 50 seconds
+You can own, you can contribute, and you can access these digital commodities in a different way, in a more fair and open
+32:58
+32 minutes, 58 seconds
+way. So that's why we're really doing this. Um but I didn't want to talk too long about that because here we are in an academic setting. Anyways, yeah. So
+33:06
+33 minutes, 6 seconds
+that's the end of my presentation. Um I hope that uh that was interesting for people.
+Sync to video time
