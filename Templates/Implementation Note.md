@@ -17,6 +17,7 @@ tags:
 # Bilingual linkage
 lang: zh
 translation_of: "[[Implementation Note.en]]"
+aliases: ["实现笔记"]
 
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
@@ -26,7 +27,7 @@ translation_of: "[[Implementation Note.en]]"
 #   - ""
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 实现笔记
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

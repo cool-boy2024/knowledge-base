@@ -1,9 +1,10 @@
 ---
 lang: zh
 translation_of: "[[SETUP.en]]"
+aliases: ["安装指南"]
 ---
 
-# 安装指南 (Setup Guide)
+# Setup Guide · 安装指南
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

@@ -19,6 +19,7 @@ tags:
 # Bilingual linkage
 lang: zh
 translation_of: "[[Concept Note.en]]"
+aliases: ["概念笔记"]
 
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
@@ -28,7 +29,7 @@ translation_of: "[[Concept Note.en]]"
 #   - ""
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 概念笔记
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

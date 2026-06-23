@@ -6,11 +6,12 @@ status: active
 last-reviewed: <% tp.date.now("YYYY-MM-DD") %>
 lang: zh
 translation_of: "[[Area of Focus.en]]"
+aliases: ["关注领域"]
 tags:
   - area-of-focus
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 关注领域
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

@@ -16,6 +16,7 @@ tags:
 # Bilingual linkage
 lang: zh
 translation_of: "[[External Resource Note.en]]"
+aliases: ["外部资源", "外部资源笔记"]
 
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
@@ -24,7 +25,7 @@ translation_of: "[[External Resource Note.en]]"
 #   - ""
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 外部资源
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

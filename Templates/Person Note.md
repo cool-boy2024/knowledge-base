@@ -1,6 +1,6 @@
 ---
 type: author-note    # Override to 'person' for non-author contacts
-aliases: []
+aliases: ["人物笔记"]
 
 # Edge fields (typed relationships — consumed by KG pipeline)
 up: []              # Parent index or MOC (e.g., LITERATURE-INDEX for authors, PEOPLE-INDEX for contacts)
@@ -23,7 +23,7 @@ translation_of: "[[Person Note.en]]"
 #   - ""
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 人物笔记
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

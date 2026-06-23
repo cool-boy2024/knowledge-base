@@ -3,9 +3,10 @@ type: index
 up: "[[VAULT-INDEX]]"
 lang: zh
 translation_of: "[[VAULT-INDEX.en]]"
+aliases: ["知识库索引"]
 ---
 
-# Vault 索引 (Vault Index)
+# Vault Index · 知识库索引
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

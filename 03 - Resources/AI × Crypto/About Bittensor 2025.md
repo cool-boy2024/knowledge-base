@@ -4,6 +4,7 @@ created: 2026-06-23
 url: https://youtu.be/yRzc-WTyXXw
 lang: zh
 translation_of: "[[About Bittensor 2025.en]]"
+aliases: ["关于 Bittensor 2025", "Bittensor 演讲笔记"]
 
 # Edge fields (typed relationships — consumed by KG pipeline)
 up: []
@@ -31,7 +32,7 @@ tags:
   - "#lang/zh"
 ---
 
-# About Bittensor 2025
+# About Bittensor 2025 · 关于 Bittensor 2025
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>

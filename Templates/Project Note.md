@@ -16,6 +16,7 @@ tags:
 # Bilingual linkage
 lang: zh
 translation_of: "[[Project Note.en]]"
+aliases: ["项目笔记"]
 
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
@@ -24,7 +25,7 @@ translation_of: "[[Project Note.en]]"
 #   - ""
 ---
 
-# <% tp.file.title %>
+# <% tp.file.title %> · 项目笔记
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
