@@ -30,6 +30,12 @@ tags:
 
 # About Bittensor 2025
 
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="About%20Bittensor%202025.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="About%20Bittensor%202025%20EN.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
+</p>
+
 > **一句话总结**：演讲者把 AI（神经网络/RL/遗传算法）、比特币（自适应算力网络）、生命系统（黏菌/树/河流）抽象成同一种「**State→Objective→Feedback→Adaptation→Loop**」的反馈循环模式，并提出 Bittensor 是把比特币的激励机制变成**通用语言**，让无许可全球市场自主生产任何有用智能。
 
 **Author**: Const (Jacob Steeves) — Bittensor 创始人
