@@ -4,6 +4,8 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 up: "[[VAULT-INDEX]]"
 status: active
 last-reviewed: <% tp.date.now("YYYY-MM-DD") %>
+lang: zh
+translation_of: "[[Area of Focus.en]]"
 tags:
   - area-of-focus
 ---
@@ -12,65 +14,65 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Area%20of%20Focus.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="Area%20of%20Focus.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="Area%20of%20Focus.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="Area%20of%20Focus.en.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
-> One-sentence mission: what does maintaining this area mean to you?
+> 一句话使命：维护好这个 Area 对你而言意味着什么？
 
 ---
 
-## Definition
+## 定义 (Definition)
 
-What this area encompasses and why it matters. Not goals — the ongoing responsibility.
+这个 Area 涵盖什么、为什么重要。不是目标——是持续承担的责任。
 
-## Standard to Maintain
+## 维持标准 (Standard to Maintain)
 
-What "good enough" looks like. A few small disciplines, not perfection.
+"足够好"是什么样的。几个小的纪律即可，不必追求完美。
 
 -
 
-## Current Goals
+## 当前目标 (Current Goals)
 
-Active goals within this area (measurable, time-bound):
+这个 Area 内的活跃目标（可衡量、有时限）：
 
 - [ ]
 
-## Active Projects
+## 活跃项目 (Active Projects)
 
-Projects currently serving this area:
-
--
-
-## Vault Resources
-
-MOCs, reference material, and knowledge supporting this area:
+当前服务于这个 Area 的项目：
 
 -
 
-## Drive / External Resources
+## Vault 资源 (Vault Resources)
 
-Where the non-vault dimension of this area lives:
-
--
-
-## Recurring Routines
-
-Weekly/monthly tasks that maintain the standard:
+支撑这个 Area 的 MOC、参考资料与知识：
 
 -
 
----
+## Drive / 外部资源 (Drive / External Resources)
 
-## Reflection Log
+这个 Area 在 vault 之外的部分存放在哪里：
 
-> Updated during periodic reviews (weekly quick-scan, six-month deep review)
+-
 
-### <% tp.date.now("YYYY-MM-DD") %> — Initial Setup
+## 周期性例行任务 (Recurring Routines)
 
-- Area defined
+维持标准的每周 / 每月任务：
+
 -
 
 ---
 
-**Review cadence**: Quick scan weekly (am I doing *something* for this area?), deep review every six months (redefine standards, assess goals, reprioritize).
+## 反思日志 (Reflection Log)
+
+> 在周期性回顾期间更新（每周快速扫视、每半年深度回顾）
+
+### <% tp.date.now("YYYY-MM-DD") %> — 初始设置
+
+- Area 已定义
+-
+
+---
+
+**Review cadence（回顾节奏）**：每周快速扫视（这周我是否为这个 Area 做了 *某些* 事？），每六个月深度回顾（重新定义标准、评估目标、重新排序优先级）。

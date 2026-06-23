@@ -23,6 +23,10 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - "#status/unread"
 
+# Bilingual linkage
+lang: en
+translation_of: "[[Literature Note]]"
+
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
 # curator_suggested_type:
@@ -35,38 +39,38 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Literature%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
-  <a href="Literature%20Note.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
+  <a href="Literature%20Note.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="Literature%20Note.en.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
 </p>
 
-## 摘要 (Summary)
+## Summary
 
-[用你自己的话写一段]
+[One paragraph in your own words]
 
-## 主要贡献 (Key Contributions)
+## Key Contributions
 
 -
 
-## 方法论 (Methodology)
+## Methodology
 
-[他们如何做的]
+[How they did it]
 
-## 结果 (Results)
+## Results
 
-[他们的发现]
+[What they found]
 
-## 相关概念 (Related Concepts)
+## Related Concepts
 
-- [[Concept 1]] — 它如何关联
+- [[Concept 1]] — how it connects
 
-## 关联 (Connections)
+## Connections
 
-[到 vault 内相关 note 的链接——概念、其他文献、项目]
+[Links to related vault notes — concepts, other literature, projects]
 
-## 批判性分析 (Critical Analysis)
+## Critical Analysis
 
-[优点、局限、问题]
+[Strengths, limitations, questions]
 
-## 标注 (Annotations)
+## Annotations
 
-[从 Zotero 提取或手写笔记]
+[Extract from Zotero or manual notes]

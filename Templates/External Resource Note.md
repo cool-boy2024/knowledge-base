@@ -13,6 +13,10 @@ related: []         # Lateral connections
 tags:
   - "#status/draft"
 
+# Bilingual linkage
+lang: zh
+translation_of: "[[External Resource Note.en]]"
+
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
 # curator_suggested_type:
@@ -24,30 +28,30 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="External%20Resource%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="External%20Resource%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="External%20Resource%20Note.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="External%20Resource%20Note.en.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
-> One-sentence summary: what this is and why it matters.
+> 一句话摘要：这是什么、为什么重要。
 
-**Author**:
-**Source**:
-**Date**:
-
----
-
-## What It Does
-
-[2-3 paragraphs: what this is, how it works, what problem it solves. For tools, focus on capabilities. For articles/posts, capture the key argument or insight.]
+**作者 (Author)**:
+**来源 (Source)**:
+**日期 (Date)**:
 
 ---
 
-## Connections
+## 它做什么 (What It Does)
 
-[Wikilinks to related vault notes — concepts, other tools, literature. Let connections emerge from the content rather than forcing research relevance.]
+[2-3 段：这是什么、它如何工作、解决了什么问题。如果是工具，聚焦在能力上；如果是文章/帖子，捕捉核心论点或洞见。]
 
 ---
 
-## Source
+## 关联 (Connections)
+
+[到 vault 内相关 note 的 wikilinks——概念、其他工具、文献。让关联从内容中自然涌现，而不是强行套上"研究相关性"。]
+
+---
+
+## 出处 (Source)
 
 - URL:

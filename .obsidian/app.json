@@ -1,1 +1,19 @@
-{}
+{
+  "userIgnoreFilters": [
+    "*.en.md",
+    ".claude/",
+    "scripts/",
+    "graphify-out/2026-",
+    "graphify-out/cache/",
+    "03 - Resources/Obsidian Reference/",
+    "03 - Resources/context/",
+    "CLAUDE.md"
+  ],
+  "showInlineTitle": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "showLineNumber": true
+}

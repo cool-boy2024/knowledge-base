@@ -16,6 +16,10 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - "#status/draft"
 
+# Bilingual linkage
+lang: zh
+translation_of: "[[Concept Note.en]]"
+
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
 # curator_suggested_type:
@@ -28,49 +32,49 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Concept%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="Concept%20Note.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="Concept%20Note.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
+  <a href="Concept%20Note.en.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
 </p>
 
-> One-sentence claim-form summary
+> 一句话主张式摘要
 
 **Status**: Emerging | Validated | Debated
-**MOC**: (set by `up:` field in frontmatter)
+**MOC**: （通过 frontmatter 中的 `up:` 字段设置）
 
 ---
 
-## Core Idea
+## 核心观点 (Core Idea)
 
-[2-3 paragraphs explaining the concept]
-
----
-
-## Why This Matters
-
-[Implications, significance]
+[2-3 段解释这个概念]
 
 ---
 
-## Evidence
+## 为什么重要 (Why This Matters)
 
-### From Literature
-- [[Literature Note]] - [What it showed]
-
-### From Implementation
-- [[Implementation Note]] - [What we learned]
+[蕴含意义、重要性]
 
 ---
 
-## Related Concepts
+## 证据 (Evidence)
 
-- **Builds on**:
-- **Contrasts with**:
-- **Enables**:
-- **See also**:
+### 来自文献 (From Literature)
+- [[Literature Note]] - [它展示了什么]
+
+### 来自实现 (From Implementation)
+- [[Implementation Note]] - [我们学到了什么]
 
 ---
 
-## Open Questions
+## 相关概念 (Related Concepts)
 
-- [ ] Question 1
-- [ ] Question 2
+- **建立在……之上 (Builds on)**:
+- **与……形成对照 (Contrasts with)**:
+- **使……成为可能 (Enables)**:
+- **另见 (See also)**:
+
+---
+
+## 待解决的问题 (Open Questions)
+
+- [ ] 问题 1
+- [ ] 问题 2

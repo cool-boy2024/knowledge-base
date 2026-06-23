@@ -36,7 +36,7 @@ tags:
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
   <a href="About%20Bittensor%202025.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
-  <a href="About%20Bittensor%202025%20EN.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+  <a href="About%20Bittensor%202025.en.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
 </p>
 
 > **TL;DR**: The speaker unifies AI (neural nets / RL / genetic algorithms), Bitcoin (an adaptive compute network), and biological systems (slime molds, trees, rivers) under a single **State → Objective → Feedback → Adaptation → Loop** pattern, and argues that Bittensor turns Bitcoin's incentive mechanism into a **general-purpose language** — letting a permissionless global market autonomously produce *any* useful intelligence.

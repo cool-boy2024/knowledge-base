@@ -14,6 +14,10 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - "#status/active"
 
+# Bilingual linkage
+lang: en
+translation_of: "[[Implementation Note]]"
+
 # Curator fields (uncomment if ontology fit is uncertain)
 # curator_status: pending
 # curator_suggested_type:
@@ -26,8 +30,8 @@ tags:
 
 <p align="right">
   <strong>🌐 语言 / Language:</strong>
-  <a href="Implementation%20Note.zh.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-current-blue?style=for-the-badge" alt="中文 (current)"></a>
-  <a href="Implementation%20Note.md"><img src="https://img.shields.io/badge/English-switch-lightgrey?style=for-the-badge" alt="English"></a>
+  <a href="Implementation%20Note.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="Implementation%20Note.en.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
 </p>
 
 **Repo**: `<% tp.file.cursor(1) %>`
@@ -36,31 +40,31 @@ tags:
 
 ---
 
-## 它是什么 (What It Is)
+## What It Is
 
-[简要描述]
-
----
-
-## 架构 (Architecture)
-
-[关键组件、设计决策]
+[Brief description]
 
 ---
 
-## 关键文件 (Key Files)
+## Architecture
+
+[Key components, design decisions]
+
+---
+
+## Key Files
 
 - `src/core/` -
 - `experiments/` -
 
 ---
 
-## 结果与心得 (Results & Learnings)
+## Results & Learnings
 
-[什么有效、什么无效]
+[What worked, what didn't]
 
 ---
 
-## 后续工作 (Future Work)
+## Future Work
 
 - [ ]

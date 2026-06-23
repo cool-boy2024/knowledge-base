@@ -56,7 +56,7 @@ Templates/            Note templates
 ## 🎯 Current Topics
 
 ### AI × Crypto
-- 📺 [About Bittensor 2025](03%20-%20Resources/AI%20%C3%97%20Crypto/About%20Bittensor%202025%20EN.md) — Deep video note with 10 Mermaid diagrams
+- 📺 [About Bittensor 2025](03%20-%20Resources/AI%20%C3%97%20Crypto/About%20Bittensor%202025.en.md) — Deep video note with 10 Mermaid diagrams
 
 ---
 
@@ -87,8 +87,8 @@ This vault is built on the [LA3D/agentic-vault](https://github.com/LA3D/agentic-
 
 Technical details:
 - [CLAUDE.md](CLAUDE.md) — Claude Code's project-level instructions
-- [SETUP (English)](SETUP.md) / [SETUP 中文](SETUP.zh.md)
-- [VAULT-INDEX (English)](VAULT-INDEX.md) / [VAULT-INDEX 中文](VAULT-INDEX.zh.md)
+- [SETUP (English)](SETUP.en.md) / [SETUP 中文](SETUP.md)
+- [VAULT-INDEX (English)](VAULT-INDEX.en.md) / [VAULT-INDEX 中文](VAULT-INDEX.md)
 
 ---
 

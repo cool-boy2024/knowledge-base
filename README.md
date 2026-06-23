@@ -87,8 +87,8 @@ Templates/            各种笔记模板
 
 技术细节看：
 - [CLAUDE.md](CLAUDE.md) — Claude Code 的项目级指令
-- [SETUP 安装指南](SETUP.zh.md) / [SETUP (English)](SETUP.md)
-- [VAULT-INDEX 完整索引](VAULT-INDEX.zh.md) / [VAULT-INDEX (English)](VAULT-INDEX.md)
+- [SETUP 安装指南](SETUP.md) / [SETUP (English)](SETUP.en.md)
+- [VAULT-INDEX 完整索引](VAULT-INDEX.md) / [VAULT-INDEX (English)](VAULT-INDEX.en.md)
 
 ---
 

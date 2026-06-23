@@ -1,0 +1,64 @@
+---
+type: author-note    # Override to 'person' for non-author contacts
+aliases: []
+
+# Edge fields (typed relationships — consumed by KG pipeline)
+up: []              # Parent index or MOC (e.g., LITERATURE-INDEX for authors, PEOPLE-INDEX for contacts)
+area: []            # Area of focus this person is relevant to
+affiliation: []         # Organizations this person belongs to
+related: []             # Lateral connections
+
+created: <% tp.date.now("YYYY-MM-DD") %>
+tags:
+  - author
+
+# Bilingual linkage
+lang: en
+translation_of: "[[Person Note]]"
+
+# Curator fields (uncomment if ontology fit is uncertain)
+# curator_status: pending
+# curator_suggested_type:
+# curator_observations:
+#   - ""
+---
+
+# <% tp.file.title %>
+
+<p align="right">
+  <strong>🌐 语言 / Language:</strong>
+  <a href="Person%20Note.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-switch-lightgrey?style=for-the-badge" alt="中文"></a>
+  <a href="Person%20Note.en.md"><img src="https://img.shields.io/badge/English-current-blue?style=for-the-badge" alt="English (current)"></a>
+</p>
+
+> One-sentence description of who this person is and what they work on.
+
+---
+
+## Works in This Vault
+
+<!-- Backlinks from literature notes with `author:` edges will appear here automatically.
+     Also list known works manually when `author:` edges haven't been added yet. -->
+
+-
+
+---
+
+## Key Themes
+
+- What they work on, key contributions, intellectual trajectory
+
+---
+
+## External Sources
+
+<!-- Link to highlight files, Zotero entries, or other source-tracking systems -->
+
+---
+
+## Online Presence
+
+- **Homepage**:
+- **Google Scholar**:
+- **X/Twitter**:
+- **GitHub**:
