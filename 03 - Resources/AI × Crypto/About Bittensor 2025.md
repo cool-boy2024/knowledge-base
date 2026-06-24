@@ -46,7 +46,7 @@ tags:
 **Source**: Hack Quest YouTube 频道
 **Date**: 2025
 **Duration**: 33:15
-**Transcript**: [[assets/About-Bittensor-2025-transcript.txt|完整英文字幕]]
+**Transcript**: [完整英文字幕](assets/About-Bittensor-2025-transcript.txt)
 
 ![Video Thumbnail](assets/video-thumbnail.jpg)
 
@@ -384,7 +384,7 @@ flowchart LR
 ## Source
 
 - URL: https://youtu.be/yRzc-WTyXXw
-- Transcript (本地缓存): [[assets/About-Bittensor-2025-transcript.txt]]
-- Thumbnail: ![[assets/video-thumbnail.jpg]]
+- Transcript (本地缓存): [assets/About-Bittensor-2025-transcript.txt](assets/About-Bittensor-2025-transcript.txt)
+- Thumbnail: ![video-thumbnail](assets/video-thumbnail.jpg)
 - 抓取日期: 2026-06-23
 - 抓取方式: yt-dlp via Clash Verge proxy (127.0.0.1:7897) + Chrome cookies + CDP transcript panel extraction
